@@ -1,0 +1,63 @@
+// Статус определяющий необходимость проверить донат
+
+new entry "NEED_CHECK_TWITCH_REWARD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "NEED_CHECK_TWITCH_REWARD"
+data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator"
+
+new entry "WILD_MAGIC_FORCE_HOSTILE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "Boosts" "FactionOverride(4be9261a-e481-8d9d-3528-f36956a19b17)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+new entry "MESSAGE_FROM_CHAT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1705b4e2ga520g4292ga2d6g2f7beb3831f0;1"
+data "Description" "h1705b4e2ga520g4292ga2d6g2f7beb3831f0;1"
+data "StackId" "MESSAGE_FROM_CHAT"
+data "StackPriority" "1"
+data "Icon" "PassiveFeature_Parry"
+data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+
+
+new entry "NEED_CHECK_FOLLOWERS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "NEED_CHECK_FOLLOWERS"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+new entry "SUMMON_DETECTION_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "SUMMON_DETECTION_AURA"
+data "StackPriority" "10"
+data "AuraRadius" "100"
+data "AuraStatuses" "IF(not Dead() and Summon()):ApplyStatus(SUMMON_DETECTED)"
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "SUMMON_DETECTED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "SUMMON_DETECTION_AURA"
+data "StackPriority" "5"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "Icon" "PassiveFeature_Generic_Death"
+
+new entry "SUMMON_ADDED_TO_TRACKING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "SUMMON_ADDED_TO_TRACKING"
+data "StackPriority" "6"
+data "Icon" "PassiveFeature_Generic_Death"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"

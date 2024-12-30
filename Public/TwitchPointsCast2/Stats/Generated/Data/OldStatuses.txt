@@ -1,0 +1,3 @@
+new entry "CHECK_TWITCH_REWARD_READY"
+type "StatusData"
+data "StatusType" "BOOST"
