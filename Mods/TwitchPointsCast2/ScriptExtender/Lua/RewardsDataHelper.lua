@@ -22,18 +22,25 @@ local function SaveRewardsToExecuteTable(rewardState)
     Ext.IO.SaveFile("TwitchPointsCast2/rewards_to_execute.json", rewardStateJson)
 end
 
+local function selectRandomReward(rewardList)
+    return weightedRandomSelection(rewardList)
+end
+
 local function AddRewardToExecute(rewardName, rewardRequestData, rewardEffectsList)
     local rewardState = GetRewardsToExecuteTable()
 
-    randomEffect = rewardEffectsList[math.random(1, #rewardEffectsList)]
+    randomEffect = selectRandomReward(rewardEffectsList)
 
     table.insert(rewardState['rewards'], {
         ['reward_name'] = rewardName,
         ['request_data'] = rewardRequestData,
         ['effect'] = randomEffect,
     })
+
     SaveRewardsToExecuteTable(rewardState)
 end
+
+
 
 local function GetRewardEffectsList(rewardName)
     local rewardEffectsList = Ext.IO.LoadFile("TwitchPointsCast2/rewards/" .. rewardName .. ".json")
@@ -97,3 +104,4 @@ function GetRewardToExecute()
     SaveRewardsToExecuteTable(rewardState)
     return firstReward
 end
+

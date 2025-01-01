@@ -7,7 +7,7 @@ function ProcessFriendlySummonsWhenCharacterMoved(character)
 			inCombat = Osi.IsInCombat(UUID)
 			template = Osi.GetTemplate(UUID)
 			if (inCombat == 0 and template ~= "DarkVine_Tentacle_GraspingVine_dcbaa902-e45c-41fa-b238-19541402961e" and template ~= "Construct_GuardianOfFaith_Neutral_d243badc-a763-4d9e-8037-2da9c3e39d5e") then
-				if (Osi.GetDistanceTo(UUID, leader) > 20) then
+				if (Osi.GetDistanceTo(UUID, leader) > 30) then
 					TeleportToTarget(UUID, leader)
 				else
 					Osi.CharacterMoveTo(UUID, leader, "Run", '')
@@ -53,7 +53,7 @@ function UseSummonSummon(character, spellName, target, requestData)
 		nextSummonParams["user"] = requestData["user"]
 	end
 	local x, y, z = Osi.GetPosition(target)
-	local positionX, positionY, positionZ = getRandomPosition(x, y, z, 10)
+	local positionX, positionY, positionZ = getRandomPosition(x, y, z, 3)
 	Osi.UseSpellAtPosition(character, spellName, positionX, positionY, positionZ, 1)
 end
 

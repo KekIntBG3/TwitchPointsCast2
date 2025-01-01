@@ -12,9 +12,7 @@ Ext.Require("Summons.lua")
 
 local PassivesAndStatuses = {
     Auto_Check_Twitch_Reward = "NEED_CHECK_TWITCH_REWARD",
-}
-local oldStatuses = {
-    "CHECK_TWITCH_REWARD_READY",
+    Auto_Check_Followers = "NEED_CHECK_FOLLOWERS"
 }
 
 -- -------------------------------------------------------------------------- --
@@ -36,9 +34,6 @@ local function RemoveModPassivesStatuses(character)
     for passive, status in pairs(PassivesAndStatuses) do
         Osi.RemoveStatus(character, status)
         Osi.RemovePassive(character, passive)
-    end
-    for _, status in pairs(oldStatuses) do
-        Osi.RemoveStatus(character, status)
     end
 end
 
@@ -66,28 +61,20 @@ end)
 
 STATUS_REWARD_IS_EXECUTING = false
 
-local rewardsTexts = {
-    "КУ-КУ ЕПТА",
-    "ЗДАРОВА",
-    "А ВОТ И Я",
-    "НЕ ЖДАЛИ?"
-}
-
 local function EndRewardsExecution(character)
     STATUS_REWARD_IS_EXECUTING = false
-    local magicManager = GetPlayerMagicManager(character)
-    TeleportToAsylum(magicManager)
+    GetPlayerMagicManager(character, TeleportToAsylum)
 end
+
+
 
 local function ExecuteReward(reward, character)
     STATUS_REWARD_IS_EXECUTING = true
     local effect = reward['effect']
     local requestData = reward['request_data']
     local rewardName = reward['reward_name']
-    local magicManager = GetPlayerMagicManager(character)
- 
-    
-    Ext.Timer.WaitFor(1000, function()
+
+    SummonMagicManagerToPlayer(character, function(magicManager)
         if (requestData['message'] ~= nil and requestData['message'] ~= "") then
             sayMessageByCharacter(magicManager, requestData['message'])
         end
@@ -109,7 +96,9 @@ local function ExecuteReward(reward, character)
             if (nextReward ~= nil) then
                 ExecuteReward(nextReward, character)
             else
-                EndRewardsExecution(character)
+                Ext.Timer.WaitFor(2000, function()
+                    EndRewardsExecution(character)
+                end)
             end
         end)
     end)
@@ -167,7 +156,8 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(character, sta
         
         Osi.RemoveStatus(character, "NEED_CHECK_TWITCH_REWARD")
     end
-    if (status == "NEED_CHECK_FOLLOWERS" and Osi.HasAppliedStatus(character, "NEED_CHECK_FOLLOWERS") == 1) then
+    -- if (status == "NEED_CHECK_FOLLOWERS" and Osi.HasAppliedStatus(character, "NEED_CHECK_FOLLOWERS") == 1) then
+    if (status == "NEED_CHECK_FOLLOWERS") then
         ProcessFriendlySummonsWhenCharacterMoved(character)
 		Osi.RemoveStatus(character, "NEED_CHECK_FOLLOWERS")
 	end
@@ -185,3 +175,9 @@ end)
 --                                UNINSTALL                                   --
 -- -------------------------------------------------------------------------- --
 Ext.Events.ResetCompleted:Subscribe(UninstallMOD)
+
+
+-- Ext.Osiris.RegisterListener("AnimationEvent", 3, "after", function (object, eventname, wasFromLoad)
+--     _D(object)
+--     _D(eventname)
+-- end)
