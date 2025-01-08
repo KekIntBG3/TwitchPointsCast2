@@ -5,8 +5,18 @@
   <content contentuid="hac6c2974gae57g0c8eg1b51gf04d25852d19" version="6">Chaos eye</content>
   <content contentuid="h996486eag5b3bg4b40gde40g84fa7ce96b55" version="1">Twitch chat eye</content>
   <content contentuid="h1705b4e2ga520g4292ga2d6g2f7beb3831f0" version="1">test</content>
+
+
   <content contentuid="d1ed0362-1d9a-40af-a7cd-9d5172351429" version="1">Give equipement</content>
   <content contentuid="0d252036-178d-40bd-a5b8-826eda1530e8" version="1">Give random temporary equipement</content>
+
+  <content contentuid="7938b63c-ed2a-43e9-b39e-6a44c1bd6407" version="1">Give weapon</content>
+  <content contentuid="fa610bcc-2ce1-4a9c-8428-1608f8657769" version="1">Give random temporary weapon</content>
+
+  <content contentuid="10728879-3031-40ba-b3b6-58fa462b7cd2" version="1">Give armour</content>
+  <content contentuid="1e9396e2-c5f8-41b6-867b-9a71bd28719f" version="1">Give random temporary armour</content>
+
+
   <content contentuid="be5ef4d7-fb3a-4607-9be8-8de4b58cad60" version="1">Adjustable Fireball</content>
   <content contentuid="79c5da81-9c63-4c7e-8f1b-a0a306a5454e" version="1">Adjustable Ice Storm</content>
   <content contentuid="ecef0609-f148-438b-8c17-6226cc64bd77" version="1">Adjustable Circle Of Death</content>
