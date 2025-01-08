@@ -74,6 +74,8 @@ function UseSummonEnemy(character, enemy, target, count, requestData)
 		local enemyTemplate = enemiesTemplates[math.random(1, #enemiesTemplates)]
 		_P(enemyTemplate)
 		local enemy = Osi.CreateAt(enemyTemplate, positionX, positionY, positionZ, 1, 1, "")
+		Osi.TeleportToPosition(enemy, positionX, positionY, positionZ, "", 0, 0, 0, 1, 1)
+
 		Osi.SetFaction(enemy, '4be9261a-e481-8d9d-3528-f36956a19b17')
 		Osi.SetCanJoinCombat(enemy, 1)
 
