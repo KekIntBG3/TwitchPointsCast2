@@ -1,5 +1,5 @@
-local function ClearRewardRequestData(rewardName)
-    Ext.IO.SaveFile("TwitchPointsCast2/rewards/" .. rewardName .. ".txt", "false")
+local function ClearRewardRequests()
+    Ext.IO.SaveFile("TwitchPointsCast2/requests.txt", "")
 end
 
 local function GetRewardsToExecuteTable()
@@ -26,13 +26,13 @@ local function selectRandomReward(rewardList)
     return weightedRandomSelection(rewardList)
 end
 
-local function AddRewardToExecute(rewardName, rewardRequestData, rewardEffectsList)
+local function AddRewardToExecute(rewardRequestData, rewardEffectsList)
     local rewardState = GetRewardsToExecuteTable()
 
     randomEffect = selectRandomReward(rewardEffectsList)
 
     table.insert(rewardState['rewards'], {
-        ['reward_name'] = rewardName,
+        ['reward_name'] = rewardRequestData['__reward_name__'],
         ['request_data'] = rewardRequestData,
         ['effect'] = randomEffect,
     })
@@ -52,14 +52,13 @@ local function GetRewardEffectsList(rewardName)
     return rewardEffectsList
 end
 
-local function GetRewardRequestData(rewardName)
-    local rawRewardRequestData = Ext.IO.LoadFile("TwitchPointsCast2/rewards/" .. rewardName .. ".txt")
-    if (rawRewardRequestData == nil or rawRewardRequestData == "" or rawRewardRequestData == "false") then return nil end
+local function GetRewardRequestData(rewardRequestLine)
+    if (rewardRequestLine == nil or rewardRequestLine == "") then return nil end
     local result = {}
-    local rewardsRequestTable = splitLineBy(rawRewardRequestData, ";")
+    local rewardsRequestTable = splitLineBy(rewardRequestLine, ";")
     for index, string in pairs(rewardsRequestTable) do
         if (index == 1) then
-            result['is_active'] = string
+            result['__reward_name__'] = string
             goto continue
         end
         local rewardObject = splitLineBy(string, ":")
@@ -79,18 +78,19 @@ end
 
 
 function CheckRewards()
-    local rewardList = Ext.IO.LoadFile("TwitchPointsCast2/rewards_list.txt")
-    for _, rewardName in pairs(splitLineBy(rewardList, "\n")) do
-        rewardName = rewardName:gsub("%s+", "") -- trim
-        if (rewardName == "" or rewardName == nil) then goto continue end
-        local rewardRequestData = GetRewardRequestData(rewardName)
-        if (rewardRequestData == nil or rewardRequestData['is_active'] ~= "true") then goto continue end
-        local rewardEffectsList = GetRewardEffectsList(rewardName)
+    local requestsList = Ext.IO.LoadFile("TwitchPointsCast2/requests.txt")
+    for _, rewardRequestLine in pairs(splitLineBy(requestsList, "\n")) do
+        rewardRequestLine = rewardRequestLine:gsub("%s+", "") -- trim
+        _P(rewardRequestLine)
+        if (rewardRequestLine == "" or rewardRequestLine == nil) then goto continue end
+        local rewardRequestData = GetRewardRequestData(rewardRequestLine)
+        if (rewardRequestData == nil or rewardRequestData['__reward_name__'] == nil) then goto continue end
+        local rewardEffectsList = GetRewardEffectsList(rewardRequestData['__reward_name__'])
         if (rewardEffectsList == nil) then goto continue end
-        AddRewardToExecute(rewardName, rewardRequestData, rewardEffectsList)
-        ClearRewardRequestData(rewardName)
+        AddRewardToExecute(rewardRequestData, rewardEffectsList)
         ::continue::
     end
+    ClearRewardRequests()
     Ext.Timer.WaitFor(6000, function()
         CheckRewards()
     end)
