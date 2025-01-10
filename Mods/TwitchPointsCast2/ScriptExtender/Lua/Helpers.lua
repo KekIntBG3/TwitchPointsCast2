@@ -88,3 +88,18 @@ function weightedRandomSelection(items)
         end
     end
 end
+
+
+local specialEffects = {
+	'Spell_specialEffect_01',
+	'Spell_specialEffect_02',
+	'Spell_specialEffect_03',
+	'Spell_specialEffect_04',
+	'Spell_specialEffect_05',
+	'Spell_specialEffect_06',
+	'Spell_specialEffect_07'
+}
+
+function getRandomSpecialEffect()
+	return specialEffects[math.random(#specialEffects)]
+end

@@ -80,8 +80,12 @@ local function ExecuteReward(reward, character)
         end
 
         if effect['type'] == "status" then
-            local numberOfRaunds = (effect['number_of_rounds'] ~= nil and effect['number_of_rounds'] ~= 0) and effect['number_of_rounds'] or 1
-            Osi.ApplyStatus(character, effect['name'], numberOfRaunds * 6)
+            _D(effect)
+            Osi.UseSpell(magicManager, effect['special_effect'], character)
+            Ext.Timer.WaitFor(750, function()
+                local numberOfRaunds = (effect['number_of_rounds'] ~= nil and effect['number_of_rounds'] ~= 0) and effect['number_of_rounds'] or 1
+                Osi.ApplyStatus(character, effect['name'], numberOfRaunds * 6)
+            end)
         elseif effect['type'] == "spell" then
             Osi.UseSpell(magicManager, effect['name'], character)
         elseif effect['type'] == "summon" then

@@ -1,0 +1,79 @@
+new entry "SPIRIT_GUARDIANS_RADIANT_AURA_LITE"
+	using "SPIRIT_GUARDIANS_RADIANT_AURA"
+		data "DescriptionParams" "DealDamage(2d4,Radiant)"
+		data "AuraStatuses" "TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(SPIRIT_GUARDIANS_RADIANT_LITE,100,-1)"
+----
+
+----
+new entry "SPIRIT_GUARDIANS_RADIANT_LITE"
+	using "SPIRIT_GUARDIANS_RADIANT"
+		data "DescriptionParams" "DealDamage(2d4,Radiant)"
+		data "TooltipDamage" "DealDamage(2d4,Radiant)"
+		data "OnApplySuccess" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):DealDamage(2d4,Radiant,Magical);IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnApplyFail" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):DealDamage(2d4/2,Radiant,Magical);IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnTickRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+		data "OnTickSuccess" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'SPIRIT_GUARDIANS_DAMAGE_RECEIVED', 0.1)):DealDamage(2d4,Radiant,Magical);ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnTickFail" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'SPIRIT_GUARDIANS_DAMAGE_RECEIVED', 0.1)):DealDamage(2d4/2,Radiant,Magical);ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+----
+
+----
+new entry "SPIRIT_GUARDIANS_NECROTIC_AURA_LITE"
+	using "SPIRIT_GUARDIANS_NECROTIC_AURA"
+		data "DescriptionParams" "DealDamage(2d4,Necrotic)"
+		data "AuraStatuses" "TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(SPIRIT_GUARDIANS_NECROTIC_LITE,100,-1)"
+----
+
+----
+new entry "SPIRIT_GUARDIANS_NECROTIC_LITE"
+	using "SPIRIT_GUARDIANS_NECROTIC"
+		data "DescriptionParams" "DealDamage(2d4,Necrotic)"
+		data "TooltipDamage" "DealDamage(2d4,Necrotic)"
+		data "OnApplySuccess" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):DealDamage(2d4,Necrotic,Magical);IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnApplyFail" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):DealDamage(2d4/2,Necrotic,Magical);IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED')):ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnTickRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+		data "OnTickSuccess" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'SPIRIT_GUARDIANS_DAMAGE_RECEIVED', 0.1)):DealDamage(2d4,Necrotic,Magical);ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+		data "OnTickFail" "IF(not HasStatus('SPIRIT_GUARDIANS_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'SPIRIT_GUARDIANS_DAMAGE_RECEIVED', 0.1)):DealDamage(2d4/2,Necrotic,Magical);ApplyStatus(SPIRIT_GUARDIANS_DAMAGE_RECEIVED,100,1)"
+----
+
+----
+new entry "AID_TEMPORARY"
+	using AID
+		data "DescriptionParams" "5"
+		data "StackId" "AID_TEMPORARY"
+		data "Boosts" "IncreaseMaxHP(5)"
+		data "OnApplyFunctors" " IF(IsDowned()):RegainHitPoints(1); AI_ONLY:IF(not HasStatus('AID_TEMPORARY')):RegainHitPoints(5)"
+----
+
+----
+new entry "AID_TEMPORARY_3"
+	using AID_TEMPORARY
+		data "DescriptionParams" "10"
+		data "Boosts" "IncreaseMaxHP(10)"
+		data "OnApplyFunctors" " IF(IsDowned()):RegainHitPoints(1); AI_ONLY:IF(not HasStatus('AID_TEMPORARY')):RegainHitPoints(10)"
+----
+
+----
+new entry "AID_TEMPORARY_4"
+	using AID_TEMPORARY
+		data "DescriptionParams" "15"
+		data "Boosts" "IncreaseMaxHP(15)"
+		data "OnApplyFunctors" " IF(IsDowned()):RegainHitPoints(1); AI_ONLY:IF(not HasStatus('AID_TEMPORARY')):RegainHitPoints(15)"
+----
+
+----
+new entry "AID_TEMPORARY_5"
+	using AID_TEMPORARY
+		data "DescriptionParams" "20"
+		data "Boosts" "IncreaseMaxHP(20)"
+		data "OnApplyFunctors" " IF(IsDowned()):RegainHitPoints(1); AI_ONLY:IF(not HasStatus('AID_TEMPORARY')):RegainHitPoints(20)"
+----
+
+----
+new entry "AID_TEMPORARY_6"
+	using AID_TEMPORARY
+		data "DescriptionParams" "25"
+		data "Boosts" "IncreaseMaxHP(25)"
+		data "OnApplyFunctors" " IF(IsDowned()):RegainHitPoints(1); AI_ONLY:IF(not HasStatus('AID_TEMPORARY')):RegainHitPoints(25)"
+----
+
+

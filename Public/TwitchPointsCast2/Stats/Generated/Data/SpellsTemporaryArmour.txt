@@ -1,0 +1,8 @@
+----
+new entry "Target_GiveArmour_Temporary"
+	using "Target_GiveEquipment_Temporary"
+	type "SpellData"
+		data "Icon" "Item_ARM_ScaleMail"
+		data "DisplayName" "h376877a1g8a18g4421gadccg2c9d6440da08"
+		data "Description" "h3087a557gec29g495dgbeadg8fe3aa50938a"
+----

@@ -1,0 +1,1422 @@
+----
+new entry "Target_GiveWeapon_Temporary"
+	using "Target_GiveEquipment_Temporary"
+	type "SpellData"
+		data "Icon" "Item_WPN_HUM_Battleaxe_A_1"
+		data "DisplayName" "h3a996fa1gc276g4c3ega785gc8293cba2824"
+		data "Description" "h1f96abe8g5cbag45f0gb728g979de1b9975d"
+----
+
+----
+new entry "Target_SpearOfEvening_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(61f31bf6-47ec-41e1-9385-2f6c26facc87,30,1,true,true,true,,,TEMP_WEAPON);"
+----
+
+----
+new entry "Target_Salami_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e082f373-81ec-4f4b-818b-9ee86952e2fa,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TwistingBranch_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c71e2798-31ae-4f57-8073-c6195c2e9d02,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PlagueGreenTorch_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(fabf8b48-9c73-498a-a4ad-f9bf07024f19,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TorchOfRevocation_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(88be0257-cd9a-4922-85c9-178ad8579af2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_FlailOfTheVortex_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8f8ad4f1-ee45-45f5-9368-3da979ada65a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Greatsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(ecfb9f69-5bc3-402e-acd8-c91d57e28403,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Pickaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8693aa7e-cd47-4990-80e7-51041f036400,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PracticeSword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5e651778-cc78-425e-b27d-483b1c8afa82,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ScimitarSharran_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(afdc3411-7dad-4483-8ee1-e6a8f37b3ee4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ScimitarOfCinder_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(cac16ce7-f5fd-4314-8b79-94b56d6a8a09,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TridentOfTheDepths_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(ba86b029-9232-4ad2-9e2d-9edcdd1d728b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AzerWarhammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(22baa548-56a4-494c-a9d0-4880d6f1da91,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CeremonialLongsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3fc2ba50-3070-4caa-abe8-3bf885969bde,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CeremonialBattleaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c17ee133-cbb5-418f-88be-5ef27991cf50,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CrossbowOfArcaneForce_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b11756a8-519a-406c-be36-c3603c3edae1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_EverburnBlade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(660483f6-8eb3-45be-88a4-327f9d417026,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_GithyankiGreatswordPsionic_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(769adbf8-d3bf-48f7-8c2b-21fb892b1d33,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Halberd1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d1019d9d-e5ae-4601-8a63-1b33421926e1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Hoppy_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1a0860bf-aa35-4ac4-b98b-2f9fb04426bd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_HeavyCrossbow1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(6af59cba-cc38-4511-9c3b-75caac4b96b5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightOfCreation_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1534c8ee-3651-477d-999c-b22efc9f850d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_MyrkuliteScourge_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(05ca18da-41f4-4385-b370-0f75a989e119,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ReturningPike_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1047ac9f-7860-44fd-9154-0f06fe64936c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SwordOfScreams_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(df6698d2-b690-4aea-be83-956d3b2ea97e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheSkinburster_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(64cdd668-5c09-48f3-a064-d4581156ca31,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AdamantineLongsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d116f35c-4399-408c-ba90-b455a5d29a1f,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AdamantineScimitar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(503b4f8d-da61-4fc1-a4b7-cad124a10c69,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AdamantineMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(df08ec01-52f0-4fdf-b5e7-4fa0970a480a9,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BlackguardsSword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a11f6f4-5605-4dff-a3e6-b172e4dba555,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BladeOfOppressedSouls_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a024202-84d0-4466-a958-76b2a163781c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BreachingPikestaff_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(661ac892-ee92-46ca-b1b4-1c1df10c7bf0,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BloodedGreataxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e1e090ec-ab8c-4db4-a0c3-8b7ab24bb181,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Greataxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d5712e24-ce9e-42ce-8fad-6e049b62c28c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Corpsegrinder_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c1aa1bf6-2bb8-4472-9e18-b5285101c4b3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CorrosiveFlail_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a44de18-b355-4692-9256-d920b9bb25b7,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DukeRavengardsLongsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(06fbf04c-41be-4709-91df-76b4cbc9ccf5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DrakethroatGlaive_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(89f511d6-6d36-4480-9ee8-6e0145c960ef,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_KethericsWarhammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1f8252a3-3227-48a3-b500-996e571cac68,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LarethiansWrath_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(56a7539c-7c5c-4c44-b8e0-5ff2e5beb4e9,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RatBat_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7ee0b513-403b-4fe3-a445-b599defa9331,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RavengardsScourger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(83715b12-8d39-48b7-a981-fe50a4ec2d4e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SoulbreakerGreatsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(523a959d-4101-4beb-9a8e-276c3f687c02,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Sorrow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0de9e072-7048-4d07-8bbe-79e0591674c2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_UnseenMenace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(cd6c6adc-8792-4378-8c63-8169cfad6c55,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Warhammer2_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e6b027a7-40bb-445e-b199-38b08d2b4832,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Belm_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d60524f4-583e-4b16-91b2-871221d441cf,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DwarvenThrower_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(596202a9-7d6b-4bcf-8748-dbf6aa55b002,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_FabricatedArbalest_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(45d888b5-e002-4bb8-85d7-6df569aceaa4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_HellfireHandCrossbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(f5b3b579-3569-4f6d-835c-9c19245152d6,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_InfernalRapier_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e925fb75-96a5-4634-9e0b-a239e48da115,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_KnifeOfTheUndermountainKing_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(025e162a-45ec-4f4c-89da-04d8e8dfe606,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheDeadShot_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(269b2b03-aaaf-4635-98e2-e9b32dab5ffa,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheDancingBreeze_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a6e5a22-414d-4f4e-b9e1-6083822648c4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_VossSilverSword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(20c66f8d-f455-42fc-8e48-543512247e75,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BalduransGiantslayer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7219fca3-5f41-43a0-8253-f4c09d8b6308,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CrimsonMischief_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5961d027-75fd-4ad7-964c-8b786b5839fb,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DuellistsPrerogative_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d49bf05e-4f94-4860-bd8c-ae63dae811be,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_GontrMael_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7e81bb6a-f465-4fe9-b1db-7ce6198246ba,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Nyrulna_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(daf0be7f-87d9-448a-b94e-471ffec40ac5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SilverSwordOfTheAstralPlane_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(f01c3f5d-c542-420f-86c5-bdddf7819e29,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_OrphicHammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9ff968d4-08ff-4da1-a288-959ac8d7abe1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_KingsKnife_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5908898d-5d9e-40de-ab07-3f8fb5f0174c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PactboundTrident_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(fd1b4c45-e2df-4add-bc56-697d0339c4bd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyMaul_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(67e97333-2225-4797-9c06-0a0e08e6edd7,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyPike_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0eddcd68-36fb-4c9f-8cbb-66513d8d718e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyGlaive_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(be861724-206e-483e-a42d-9dd131030ad,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyGreatsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(82311843-dae9-4bda-86fb-40b722daf82e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyHalberd_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7addb7c0-f428-4033-9065-f4ad6e4c7e81,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyHeavyCrossbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(181104f6-6423-42de-b624-e225e5fb8a4d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyLongsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(dddd2204-0ee3-47b0-a7ea-6b5216a65e89,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyMorningstar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(f8856d2d-ffda-417c-b7a8-c7aa757903b7,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyScimitar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(134cca90-23ea-497d-8698-b7a66bab59d3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyShortsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9d66df2d-8e8f-4798-8684-77b738d26704,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyTrident_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(27ef84b1-ea40-4f06-a013-f6281511f0e9,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+
+----
+new entry "Target_HandCrossbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(a5d843ab-c3af-4e60-a925-bb2e15828938,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Shortsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(467ddb4f-6791-41fa-99f7-ee8620d63bbe,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Scimitar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(868217db-9dcb-414c-bb88-e321ab3e0349,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DjinniScimitar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(96f7647b-7485-4c0c-aaad-73a332d8e626,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ChaosFlail_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(608e265d-f81b-4c13-a786-e5602852fcf4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ShadowBattleaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(6364a270-0ca4-45e2-aab2-7673bb5c156e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ToughSunrises_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(907df6ab-93ab-4f51-bf57-ac767d48e382,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SteadfastMaul_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9c0b228c-8330-4407-9877-3b980810a1ae,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_GithyankiLongswordPsionic_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0553ced5-00b0-4c39-8ee4-519f6401f44a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Verminsign_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(31a0245d-48fe-462e-b4bc-4bfe906e49fd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PhalarAluve_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(6d0d3206-50b5-48ed-af92-a146ed6b98f2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SanguineBlade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(a8dc9927-1aa3-45ee-8fea-4106e431c194,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Moonblade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9046e0e3-1e70-4267-9430-3901201e8cbd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_InfernalWarhammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(855f49c9-5724-4df9-a23d-0af82116af76,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RenderofScrumptiousFlesh_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5c41bb72-9a50-4d98-a12a-0de374c43f19,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ReboundBattleaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d2d5141a-9804-49b6-96e2-5738d85feffa,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CombinationAxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(35465a58-d21d-46b4-a429-64d187b0781f,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_FlailOfDreadSkulls_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b551469c-5a53-4df3-a2c9-91516ef55695,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BloodBoundBlade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(faf8d98c-103d-4524-b609-41d3f1790c5a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ExecutionerSword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3fab682c-abc7-43f0-b9bb-9faa9f612d8d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AllandrasWhelm_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(503d3d60-8798-4c65-bec1-347392733c86,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PlaneslayerFlail_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8c733d14-6cbc-4227-9d87-0e42ce0965c4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_InfernalLongsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e1c37edf-ad63-44a5-8fd4-44687169747e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ArduousFlameBlade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d4cb8410-096a-480e-88fb-7224c6b654f6,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheImpaler_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(53023726-12bd-4871-805a-66744321dfdb,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_MagicalHandCrossbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(759a080f-bd13-4cd8-a417-1677b8ee9d73,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Bloodthirst_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d90abf24-3c4e-4bbf-84aa-def05ca9962a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheClover_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(517231eb-e812-43ed-9ce3-482ba7ed31e6,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SwordOfClutchingUmbra_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(82afffba-16cb-47ff-8520-bac8b9c46ad3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheJoltshooter_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(38b80bf8-9cf8-4495-8267-eb84c7779d0c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheLongArmOfTheGur_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b2fb13a7-ce3e-4721-b2ea-1dee303707ed,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SwordOfChaos_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e76b0896-dc70-4fb9-b202-cf5efc2de15a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Sethan_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7bbc2408-14de-4129-bab0-db29927b7f43,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TridentOfTheWaves_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(657678f2-5924-4d8e-b8ce-a2079154c91b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_JorgoralsGreatsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(26ac9758-19f4-4867-9d5d-57437d6b9794,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DefenderGreataxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(560fa90c-942b-4661-a86b-e20f9362c9ba,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ClownHammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(72207448-c6b6-42fc-b9ef-a34fdd3c1265,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ArtificialLeech_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(81158eec-1fd0-4fd7-8b02-ce7f5e45f8b5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BOOOALsArms_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8fdd7b33-6740-4d15-935c-9e54f54e16d4,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Club_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d9c87013-1f41-4c17-b71d-f353ec0d64e8,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Cleaver_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b6b4ac25-e54b-441f-b6d3-423ea728cfb1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DevaMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c0fb0a11-1f29-470c-a95b-102377ef2356,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Mace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3186796d-3ab3-4d49-bfc2-cba1aff0cf5a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_NeedleOfTheOutlawRogue_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3186796d-3ab3-4d49-bfc2-cba1aff0cf5a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustedBlade_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b51adef1-b17e-463b-b009-c71db48bd195,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(6a321455-d00f-4164-ab12-3601fef2ae6e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyHandaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(2c362536-7ffa-43f4-926c-70dc682ffbff,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustyMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(ce1c45a5-5606-4604-9afa-beca19fd03e1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustySickle_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1d75dc84-b276-47b0-a0be-a5b25dfcb086,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RustySpear_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(86450ec8-d876-457f-92c0-7bb11e8f38f8,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Scalpel_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3d01cf80-2d13-4225-a520-6558a7f407cd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Syringe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(75cea463-4395-4600-ad93-7017415b16e3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TwistedOakCrook_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b61f3c6e-a224-4af8-ad16-51b3799e7715,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BrokenClub_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0ca0e540-dabe-4bf4-9e23-c006f03ffae2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DadsAxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(b7d2149f-dcd4-4244-858c-aaae7af6e9b3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Javelin_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a7adc8d-b561-4f81-a8f2-ec07b5d54955,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_KassPracticeSword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(75654556-d676-4fb5-b553-bef42fbf0fbb,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightHammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(494f21ac-5a1b-4e91-bd30-551b79532516,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_PooScraper_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(26398e41-8636-4fd5-bc12-d7971dfe1ca8,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Spear_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9f0f1c0e-012d-44e1-9b29-86c64d2bf675,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Sickle_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(50d677ed-3a0e-40e9-8291-ee6823af5672,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ArgumentSolver_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(fddc251b-22d8-4036-a9fb-85fba8635cf0,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ArtificialLeech1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(a27e3e3a-ef55-4733-9655-29c7913d26d5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AssassinsShortsword_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3c14116f-43da-4e73-92d1-903f46a9d55d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_AssassinsTouch_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(520d3f36-af72-4385-89af-f585c8edc9cf,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BowOfAwareness_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c57ba806-b340-4307-9c37-170792052b8d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ComebackHandaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(82999790-f80d-47f7-9383-9bb6cf57a10b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightningJabber_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5dc55fa5-40df-4e67-ab78-d9320176e614,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightCrossbow1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(509dd5c3-7c72-4335-9b23-19a14a884f2e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightHammer1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d0419aaf-9e20-4029-b8e9-9e1a62661b13,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_MelfsFirstStaff_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(1e8e2d4d-904d-4367-ad28-30012915f458,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_NaturesSnare_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(4893bf4e-97e1-48e0-ada8-6bbf115ad68b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RainDancer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(28b38ae1-8d66-4d8e-a4f0-5d4c6c342c59,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_RitualDaggerOfShar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(2b07d6f1-d698-47e2-9531-500cbffd9853,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_StaffOfaMumblingWizard_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(cd8e6f82-d128-4077-916e-a6179fd1d190,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_StaffOfArcaneBlessing_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(da0ba39a-366d-456b-8dbd-1c5790ca40bf,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_WulbrensHammer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d0419aaf-9e20-4029-b8e9-9e1a62661b13,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Ambusher_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7a96f6cc-c6bb-4caf-a1ab-a86af3fa21a5,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BigboysChewToy_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(59cd94ae-c26c-459a-89d8-a1f1ebdd13ba,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BowOfTheBanshee_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c040d1fc-4804-4774-8367-6dfa397e27e2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Cacophony_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(4708068e-542a-4dfb-b8a0-56e1ee371600,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CaitiffStaff_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(518d1630-d2bf-4dca-8c24-9d7ba9d529f3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ColdSnap_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(a8661143-d94d-4f49-a92f-cbd0a9a500a1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_CreationsEcho_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(62da3651-f2e4-4371-b5f2-fd06dd705030,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DarkfireShortbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9b5d79a8-98ad-4d67-9730-ba0453eee488,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_GleamdanceDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3d449afb-b99a-492c-b636-85ced6b39e69,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DreadIronDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9829ba14-b236-4e50-ad54-426ff618074b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_InfernalMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8e13f737-40e5-4be5-817e-1c5d6199b08b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_HollowsStaff_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(bb1fef3b-ac2b-427e-9b6f-273a8c7e4ff8,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ShatteredFlail_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(8a527abd-a2ff-4267-a067-d26bdf6742ee,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SpearOfNight_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d590884d-55a2-4136-9777-531ee7d53f7e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Spear2_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(74d9758a-84e9-4244-9ae8-14acee76acb3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SussurSickle_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(6b95bb45-41c3-4954-ac2f-ef1aa169b0b6,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheSpellsparkler_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(53d6be1b-eac1-4b88-83ab-ba17956eca57,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_HandmaidensMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c31d6b30-2377-4e3c-a602-d5d527defc11,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Blightbringer_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9eed107f-ff11-4f50-ac7a-6a8b8344e148,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Rhapsody_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(c5375a2c-f03c-464b-a482-5251debbfabb,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_StaffOfCherishedNecromancy_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(ecb02247-a407-445e-8046-856133d198bf,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_StaffOfSpellpower_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d09685e8-0122-4ecb-8e9d-2f6f1850427e,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Stillmaker_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0cfbd2ef-6eb3-4283-b0c9-8e23a4f9bf8c,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Woe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(cf42b0d0-89d8-4756-b6d7-1e258dceeab0,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DevoteesMace_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(f8578a13-a857-4043-91e4-8101c9e7c004,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Markoheshkir_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7e39ad11-f8c3-421a-940c-05348c420c7d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SelunesSpearOfNight_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(2eeabe97-8f29-4f4f-827e-6cfcd8fd1779,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_TheBloodOfLathander_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7b961f08-46c1-46b1-99bc-c59283831a0b,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Dart_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(fb08eef6-f6a0-454e-ab14-c1470f3ba18d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_VampiricDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(4a997f13-4fb8-4aca-b3f1-cf206b108805,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Sling_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d31af642-ae35-4f22-b7a6-100f3048be33,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SpiderstepStaff_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(baa8bd91-09ec-4c92-a0e1-4a5a9d4ea8ed,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_MindSunderingDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(33e89c49-6e6f-4143-a57e-c53344422dbf,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_BrewingLadle_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(96df6fd6-a688-47ab-b448-0b6d27d1cf1d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_GoblinbaneDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(529fe100-de0b-4a34-a669-4861ee4538a2,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_EnforcerClub_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d3cd1f93-64bb-4d57-bafc-19ee1cefc564,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Promise_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(9e31fd58-c2a6-487c-9054-913aecd5ce32,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_SharsSting_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(7773610f-f246-4837-a75f-2d260f815718,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DaggerOfShar_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(12f1e6ce-7042-481b-879b-fa81c7688c7d,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Dart1_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(5557cbf6-ce24-48de-beed-3be1a77e1c82,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_StaffOfAccretion_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(26c24ccf-8f4a-44a9-ba56-e1d8e9d49ae3,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LightCrossbowOfSpeed_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(664ff469-770a-4597-9be2-506465e5486f,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Dart2_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(e292c502-b116-4a46-a232-dd53f7838f6f,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ArcaneAbsorptionDagger_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(cf89e4d8-485c-4cef-8098-959834cc8ac1,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_DolorAmarus_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(d3e121fb-09c0-4478-84f1-f4f3e28cd50f,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ViciousShortbow_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(0a17e147-25bf-4ae5-b24a-3307db4bec56,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_Fleshrender_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3db6b7be-1e36-405e-94fd-cf5a9f0e4b68,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ViciousBattleaxe_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(3ff89075-1ef3-487e-b456-a1b536fd681a,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_LeastExpected_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(2199a407-0ae8-4ada-b3cd-b19df5adeadd,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----
+
+----
+new entry "Target_ClubOfHillGiantStrength_Temporary"
+	using "Target_GiveWeapon_Temporary"
+		data "SpellProperties" "AI_IGNORE:SummonInInventory(768010ce-dcfe-43bb-8398-2d681d4fa6eb,30,1,true,true,true,,,TEMP_WEAPON);"
+
+----

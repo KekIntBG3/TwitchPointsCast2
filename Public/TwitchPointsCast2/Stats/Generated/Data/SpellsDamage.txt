@@ -1,0 +1,35 @@
+----
+new entry "Projectile_AdjustableFireball"
+	type "SpellData"
+	using "Projectile_Fireball"
+		data "Level" "0"
+		data "SpellSuccess" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage(2d6, Fire, Magical);IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage(4d6, Fire, Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage(6d6, Fire, Magical);"
+		data "SpellFail" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage((2d6)/2, Fire, Magical);IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage((4d6)/2, Fire, Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage((6d6)/2, Fire, Magical);"
+		data "TooltipDamageList" "DealDamage(2d6,Fire)"
+		data "DisplayName" "h389c4d74g90e2g4207ga253gb205d1b7727a"
+----
+
+new entry "Target_AdjustableIceStorm"
+	using "Target_IceStorm"
+		data "SpellProperties" "GROUND:CreateSurface(6,2,WaterFrozen);GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING)"
+		data "SpellSuccess" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage(2d4,Bludgeoning,Magical);IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage(2d4,Cold,Magical); IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage(2d6,Bludgeoning,Magical); IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage(4d4,Cold,Magical); IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage(2d8,Bludgeoning,Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage(4d6,Cold,Magical);"
+		data "SpellFail" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage((2d4)/2,Bludgeoning,Magical);IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage((2d4)/2,Cold,Magical); IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage((2d6)/2,Bludgeoning,Magical); IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage((4d4)/2,Cold,Magical); IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage((2d8)/2,Bludgeoning,Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage((4d6)/2,Cold,Magical);"
+		data "TooltipDamageList" "DealDamage(2d4, Bludgeoning);DealDamage(2d4, Cold)"
+		data "DisplayName" "h0870e3adg9eccg43c5g9c71g17f6c4c3078e"
+----
+
+----
+new entry "Target_AdjustableCircleOfDeath"
+	using "Target_CircleOfDeath"
+		data "SpellSuccess" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage(2d6,Necrotic,Magical);IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage(4d6,Necrotic,Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage(8d6,Necrotic,Magical);"
+		data "SpellFail" "IF(not CharacterLevelGreaterThan(4, context.Target)):DealDamage((2d6)/2,Necrotic,Magical);IF(CharacterLevelGreaterThan(4, context.Target) and not CharacterLevelGreaterThan(8, context.Target)):DealDamage((4d6)/2,Necrotic,Magical);IF(CharacterLevelGreaterThan(8, context.Target)):DealDamage((8d6)/2,Necrotic,Magical);"
+		data "DisplayName" "hdda9c5efg9096g4de8g84a0gc0f2b733a734"
+		data "DescriptionParams" "DealDamage(3d6, Necrotic)"
+		data "TooltipDamageList" "DealDamage(3d6, Necrotic)"
+----
+
+----
+new entry "Target_MAG_HungerOfHadar_No_Concentration"
+	using "Target_MAG_HungerOfHadar"
+		data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;CannotTargetItems"
+----

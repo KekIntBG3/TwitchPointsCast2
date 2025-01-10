@@ -1,0 +1,187 @@
+----
+new entry "Target_ConjureElemental_Elemental_Air_Temporary"
+	using "Target_ConjureElemental_Elemental_Air"
+		data "SpellProperties" "GROUND:Summon(284b9c7f-1e04-48b7-af41-9029d1fa753c, 30, Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Elemental_Earth_Temporary"
+	using "Target_ConjureElemental_Elemental_Earth"
+		data "SpellProperties" "GROUND:Summon(2ad47124-e41a-460e-b97a-f8e9efd32ed8, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Elemental_Fire_Temporary"
+	using "Target_ConjureElemental_Elemental_Fire"
+		data "SpellProperties" "GROUND:Summon(88a6c664-877c-4d6e-81ad-dd377df2634e, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Elemental_Water_Temporary"
+	using "Target_ConjureElemental_Elemental_Water"
+		data "SpellProperties" "GROUND:Summon(f21e144a-3237-4faa-a99c-a15e1937bc2c, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElementals_Minor_Azer_Temporary"
+	using "Target_ConjureElementals_Minor_Azer"
+		data "SpellProperties" "GROUND:Summon(3fa146c8-7fe0-44fd-9028-0ac2ccac2d44, 30,Projectile_AiHelper_Summon_Weak,,'ConjureMinorElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+---
+---
+new entry "Target_ConjureElementals_Minor_IceMephit_Temporary"
+	using "Target_ConjureElementals_Minor_IceMephit"
+		data "SpellProperties" "GROUND:Summon(9bfb58f1-52d2-45d4-8485-0eb224f1a87f, 30,Projectile_AiHelper_Summon_Weak,,'ConjureMinorElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:Summon(9bfb58f1-52d2-45d4-8485-0eb224f1a87f, 30,,,'ConjureElemetnalTwoStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElementals_Minor_MudMephit_Temporary"
+	using "Target_ConjureElementals_Minor_MudMephit"
+		data "SpellProperties" "GROUND:Summon(74e37928-4361-4d5b-a304-0ba82f5e398a, 30,Projectile_AiHelper_Summon_Weak,,'ConjureMinorElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:Summon(74e37928-4361-4d5b-a304-0ba82f5e398a, 30,,,'ConjureElemetnalTwoStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureWoodlandBeings_Temporary"
+	using "Target_ConjureWoodlandBeings"
+		data "SpellProperties" "GROUND:Summon(42da1663-b150-4e9b-abc8-8cdc7240fd56, 30,Projectile_AiHelper_Summon_Strong,,'ConjureWoodlandBeingsTemporary',DRYAD_VFX,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Myrmidon_Air_Temporary"
+	using "Target_ConjureElemental_Myrmidon_Air"
+		data "SpellProperties" "GROUND:Summon(15928ca3-b38b-4303-9c1c-9945e5e719a1, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Myrmidon_Earth_Temporary"
+	using "Target_ConjureElemental_Myrmidon_Earth"
+		data "SpellProperties" "GROUND:Summon(b5bd29ba-8105-4123-920f-a2c64a4e1dfc, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Myrmidon_Fire_Temporary"
+	using "Target_ConjureElemental_Myrmidon_Fire"
+		data "SpellProperties" "GROUND:Summon(7794f082-5483-42d2-9d5c-ee6a99de8703, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_ConjureElemental_Myrmidon_Water_Temporary"
+	using "Target_ConjureElemental_Myrmidon_Water"
+		data "SpellProperties" "GROUND:Summon(b79527a1-a83d-4b23-82d5-a02b01638469, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+
+----
+new entry "Target_ConjureElemental_Myrmidon_Water_Temporary"
+	using "Target_ConjureElemental_Myrmidon_Water"
+		data "SpellProperties" "GROUND:Summon(b79527a1-a83d-4b23-82d5-a02b01638469, 30,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+
+----
+new entry "Target_PlanarAlly_Cambion_Temporary"
+	using "Target_PlanarAlly_Cambion"
+		data "SpellProperties" "AI_IGNORE:Ground:Summon(6708ae4b-8dcf-4812-bdba-fd5fe1c343f6, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);AI_ONLY:Ground:Summon(6708ae4b-8dcf-4812-bdba-fd5fe1c343f6, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,KNOCKED_OUT_SUMMON_DISMISS)"
+----
+----
+new entry "Target_PlanarAlly_Deva_Temporary"
+	using "Target_PlanarAlly_Deva"
+		data "SpellProperties" "AI_IGNORE:Ground:Summon(2337e270-3c93-4088-8439-7c7450b99179, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);AI_ONLY:Ground:Summon(2337e270-3c93-4088-8439-7c7450b99179, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,KNOCKED_OUT_SUMMON_DISMISS)"
+----
+----
+new entry "Target_PlanarAlly_Djinni_Temporary"
+	using "Target_PlanarAlly_Djinni"
+		data "SpellProperties" "AI_IGNORE:Ground:Summon(c6ad9c71-43a9-410b-8e3e-219a0a7fddc8, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);AI_ONLY:Ground:Summon(c6ad9c71-43a9-410b-8e3e-219a0a7fddc8, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,KNOCKED_OUT_SUMMON_DISMISS)"
+----
+----
+new entry "Target_PlanarAlly_Deva_Banite_Temporary"
+	using "Target_PlanarAlly_Deva_Banite"
+		data "SpellProperties" "AI_IGNORE:Ground:Summon(af547ac0-c5fb-481d-9d67-8da3799aef5a, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);AI_ONLY:Ground:Summon(af547ac0-c5fb-481d-9d67-8da3799aef5a, 30,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,KNOCKED_OUT_SUMMON_DISMISS)"
+----
+----
+new entry "Target_FindFamiliar_Cat_Temporary"
+	using "Target_FindFamiliar_Cat"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(be212ed5-a622-4560-96be-0ee27ea1f913,30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(be212ed5-a622-4560-96be-0ee27ea1f913, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_CAT)"
+----
+----
+new entry "Target_FindFamiliar_Crab_Temporary"
+	using "Target_FindFamiliar_Crab"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(48cda2b7-04bc-40c2-81f5-1dddabcd15ab,30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(48cda2b7-04bc-40c2-81f5-1dddabcd15ab, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_CRAB)"
+----
+----
+new entry "Target_FindFamiliar_Frog_Temporary"
+	using "Target_FindFamiliar_Frog"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(4521a4d1-0940-41de-b4c2-0314b8c8f32d, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(4521a4d1-0940-41de-b4c2-0314b8c8f32d, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_FROG)"
+----
+----
+new entry "Target_FindFamiliar_Rat_Temporary"
+	using "Target_FindFamiliar_Rat"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(d779b7f9-2c7b-4f85-b914-f09e00c117f2, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(d779b7f9-2c7b-4f85-b914-f09e00c117f2, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_RAT)"
+----
+----
+new entry "Target_FindFamiliar_Raven_Temporary"
+	using "Target_FindFamiliar_Raven"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(ecdffa46-80bd-41d2-8a50-4460a2810672, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(ecdffa46-80bd-41d2-8a50-4460a2810672, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_RAVEN)"
+----
+----
+new entry "Target_FindFamiliar_Spider_Temporary"
+	using "Target_FindFamiliar_Spider"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(739b8af1-643d-4cc9-b5bd-3628cd3acc40, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(739b8af1-643d-4cc9-b5bd-3628cd3acc40, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_SPIDER)"
+----
+----
+new entry "Target_FindFamiliar_Dog_Temporary"
+	using "Target_FindFamiliar_Dog"
+		data "SpellProperties" "GROUND:Summon(b5deaa14-03b5-41c6-8372-7a9d758b4dfb, 100,,,'FindFamiliaSCRATCH',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_FindFamiliar_Boo_Temporary"
+	using "Target_FindFamiliar_Boo"
+		data "SpellProperties" "GROUND:Summon(6f65f77f-4583-4dd7-be15-b737d0175061,100,,,'FindFamiliarBOO',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_PactOfTheChain_Quasit_Temporary"
+	using "Target_PactOfTheChain_Quasit"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain())Summon(03f340c1-a26e-427e-968a-94c795015965, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain())Summon(03f340c1-a26e-427e-968a-94c795015965, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_QUASIT)"
+----
+----
+new entry "Target_PactOfTheChain_Imp_Temporary"
+	using "Target_PactOfTheChain_Imp"
+		data "SpellProperties" "GROUND:IF(IsImprovedPactOfTheChain()):Summon(308da8fd-fb8e-4078-8991-a8ee678b49da, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,EXTRA_ATTACK_THIRSTING_BLADE_TECHNICAL,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not IsImprovedPactOfTheChain()):Summon(308da8fd-fb8e-4078-8991-a8ee678b49da, 30,,,'FindFamiliarStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_IMP)"
+----
+----
+new entry "Target_RangersCompanion_Bear_Temporary"
+	using "Target_RangersCompanion_Bear"
+		data "SpellProperties" "GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(d642d398-f349-4eab-b98c-a82cbda19918,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(533d21da-878c-421d-a372-54e0125ae3bb,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(041f7544-d1fc-446d-b439-2108c02896ed,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(2b290dbd-0f5f-4a65-8d23-481fa40f7aa8,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(df74b830-20ec-4fc3-b09e-3b82e7db8f80,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_RangersCompanion_Boar_Temporary"
+	using "Target_RangersCompanion_Boar"
+		data "SpellProperties" ""
+		data "SpellProperties" "GROUND:IF(not CharacterLevelGreaterThan(5, context.Source)):GROUND:Summon(be71d66c-5328-490f-b962-4fdb7ca2647f,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);IF(CharacterLevelGreaterThan(5, context.Source) and not CharacterLevelGreaterThan(7, context.Source)):Summon(4ab10523-7e35-4a68-9afa-4839c484c579,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);IF(CharacterLevelGreaterThan(7, context.Source) and not CharacterLevelGreaterThan(8, context.Source)):Summon(f756eba3-1140-4be4-96f7-ca9706be60b6,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);IF(CharacterLevelGreaterThan(8, context.Source) and not CharacterLevelGreaterThan(11, context.Source)):Summon(a6297d2a-5c08-4206-a661-00a776802160,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);IF(CharacterLevelGreaterThan(11, context.Source)):Summon(aa0bc9e6-65db-4471-9c35-8ff3412212d6,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_RangersCompanion_GiantSpider_Temporary"
+	using "Target_RangersCompanion_GiantSpider"
+		data "SpellProperties" "GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(7542dc70-4f9d-439a-ba96-1bc0c1b89d9c,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_GIANTSPIDER,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(e3161996-d439-45ff-a42a-3fdb3f76b9f4,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_GIANTSPIDER,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(79d2361b-32d4-4a8e-9f95-531a214600ce,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_GIANTSPIDER,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(dc33b3a3-60ba-462b-9dd2-f8327491c7db,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_GIANTSPIDER,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(b7ce7396-1a43-49a3-8dd0-f41dc67f0a94,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_GIANTSPIDER,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_RangersCompanion_Raven_Temporary"
+	using "Target_RangersCompanion_Raven"
+		data "SpellProperties" "GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(ca69f1a8-28c6-4eb3-863e-fa95040dc7e7,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_RAVEN,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(c390b2fc-7039-4600-bd5d-e96380dd72e9,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_RAVEN,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(7a74e578-0a94-4f66-a192-4cda690fc041,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_RAVEN,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(32f19a95-cbd0-4c3e-965c-b5cbc3ab67cf,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_RAVEN,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(c73770fb-465e-42c4-8faf-e611f1a0201c,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_RAVEN,SHADOWCURSE_SUMMON_CHECK)"
+----
+----
+new entry "Target_RangersCompanion_Wolf_Temporary"
+	using "Target_RangersCompanion_Wolf"
+		data "SpellProperties" "GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(9beee5c9-279e-49d8-a4a8-18f9ee0b1519,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(b428c4e0-d3ca-449c-a5c5-9e0fb310081a,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(74a96845-f868-4843-8941-9dfa27be92ed,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(557fec99-a8d7-466e-8b33-517082e5d8fb,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(62fd6540-17dd-405e-b305-1d88d77e8a08,30,,,'CombatSummonStackTemporary',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK)"
+
+
+----
+new entry "Target_SummonHellSphere_Temporary"
+	using "Target_FindFamiliar_Dog"
+		data "SpellProperties" "GROUND:Summon(499c3289-747a-4070-86b5-478c0c4c7d18, 30,,,'SummonHellSphereTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+
+----
+new entry "Target_SummonBeholder_Temporary"
+	using "Target_FindFamiliar_Dog"
+		data "SpellProperties" "GROUND:Summon(319efbbe-f9f3-4584-804e-3e17d47d1136, 30,,,'SummonBeholderTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+
+----
+new entry "Target_SummoMimic_Temporary"
+	using "Target_FindFamiliar_Dog"
+		data "SpellProperties" "GROUND:Summon(4f694363-716d-48be-bb05-bfcf558a081f, 30,,,'SummonMimicTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----
+
+----
+new entry "Target_SummoTressym_Temporary"
+	using "Target_FindFamiliar_Dog"
+		data "SpellProperties" "GROUND:Summon(04975002-a4ac-4eac-beae-7b44c939c354, 30,,,'SummonTressymTemporary',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+----

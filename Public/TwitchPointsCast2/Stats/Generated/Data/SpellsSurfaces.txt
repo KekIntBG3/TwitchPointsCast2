@@ -1,0 +1,119 @@
+----
+new entry "Target_Darkness_No_Concentration"
+	using "Target_Darkness"
+		data "SpellFlags" "HasVerbalComponent;IsSpell;Stealth;Invisible"
+----
+
+----
+new entry "Target_Darkness_No_Concentration_Medium"
+	using "Target_Darkness_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,DarknessCloud,true)"
+----
+
+----
+new entry "Target_Darkness_No_Concentration_Big"
+	using "Target_Darkness_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,DarknessCloud,true)"
+----
+
+----
+new entry "Target_FogCloud_No_Concentration"
+	using "Target_FogCloud"
+		data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+----
+
+----
+new entry "Target_FogCloud_No_Concentration_Medium"
+	using "Target_FogCloud_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,FogCloud,true)"
+----
+
+----
+new entry "Target_FogCloud_No_Concentration_Big"
+	using "Target_FogCloud_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,FogCloud,true)"
+----
+
+----
+new entry "Target_FogCloud_No_Concentration_Silent_Hill"
+	using "Target_FogCloud_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(100,10,FogCloud,true)"
+----
+
+----
+new entry "Target_GlobeOfInvulnerability_No_Concentration"
+	using "Target_GlobeOfInvulnerability"
+		data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
+----
+
+----
+new entry "Target_PlantGrowth_Medium"
+	using "Target_PlantGrowth"
+		data "SpellProperties" "GROUND:CreateSurface(16,10,Overgrowth)"
+----
+
+----
+new entry "Target_PlantGrowth_Big"
+	using "Target_PlantGrowth"
+		data "SpellProperties" "GROUND:CreateSurface(26,10,Overgrowth)"
+----
+
+----
+new entry "Target_Grease_Medium"
+	using "Target_Grease"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,Grease)"
+----
+
+----
+new entry "Target_Grease_Big"
+	using "Target_Grease"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,Grease)"
+----
+
+----
+new entry "Target_Web_No_Concentration"
+	using "Target_Web"
+		data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+----
+
+----
+new entry "Target_Web_No_Concentration_Medium"
+	using "Target_Web_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,Web,true)"
+----
+
+----
+new entry "Target_Web_No_Concentration_Big"
+	using "Target_Web_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,Web,true)"
+----
+
+----
+new entry "Target_MoldEarth_Create_Medium"
+	using "Target_MoldEarth_Create"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,Mud)"
+----
+
+----
+new entry "Target_MoldEarth_Create_Big"
+	using "Target_MoldEarth_Create"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,Mud)"
+----
+
+----
+new entry "Target_SpikeGrowth_No_Concentration"
+	using "Target_SpikeGrowth"
+		data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful"
+----
+
+----
+new entry "Target_SpikeGrowth_No_Concentration_Medium"
+	using "Target_SpikeGrowth_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(15,10,SpikeGrowth,true)"
+----
+
+----
+new entry "Target_SpikeGrowth_No_Concentration_Big"
+	using "Target_SpikeGrowth_No_Concentration"
+		data "SpellProperties" "GROUND:CreateSurface(25,10,SpikeGrowth,true)"
+----

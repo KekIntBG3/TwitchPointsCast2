@@ -1,0 +1,75 @@
+----
+new entry "Target_SpiritGuardians_Radiant_Lite"
+	using "Shout_SpiritGuardians_Radiant"
+		data "TargetConditions" "Character()"
+		data "TargetRadius" "10"
+		data "AreaRadius" "0"
+		data "SpellType" "Target"
+		data "SpellProperties" "ApplyStatus(SPIRIT_GUARDIANS_RADIANT_AURA_LITE,100,10)"
+		data "SpellFlags" "HasSomaticComponent;IsSpell;IsHarmful"
+----
+
+----
+new entry "Target_SpiritGuardians_Necrotic_Lite"
+	using "Target_SpiritGuardians_Radiant_Lite"
+		data "SpellProperties" "ApplyStatus(SPIRIT_GUARDIANS_NECROTIC_AURA_LITE,100,10)"
+----
+
+----
+new entry "Target_Guidance_No_Concentration"
+	using "Target_Guidance"
+	type "SpellData"
+		data "TargetRadius" "10"
+		data "SpellFlags" "HasSomaticComponent;IsSpell;IsMelee"
+----
+
+----
+new entry "Target_FeatherFall"
+	using "Shout_FeatherFall"
+	type "SpellData"
+		data "TargetRadius" "10"
+		data "SpellType" "Target"
+----
+
+----
+new entry "Target_Aid_Temporary"
+	using "Shout_Aid"
+		data "TargetConditions" "Character()"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "AreaRadius" "10"
+		data "TargetEffect" "b50decc3-5f93-4467-8d3a-aa8b01fc915e"
+		data "CastEffect" "a908e49b-b59f-4a20-b487-e25ae198d926"
+		data "SpellProperties" "ApplyStatus(AID_TEMPORARY,100,30)"
+----
+
+----
+new entry "Target_Aid_Temporary_3"
+	using "Target_Aid_Temporary"
+		data "SpellProperties" "ApplyStatus(AID_TEMPORARY_3,100,30)"
+----
+
+----
+new entry "Target_Aid_Temporary_4"
+	using "Target_Aid_Temporary"
+		data "SpellProperties" "ApplyStatus(AID_TEMPORARY_4,100,30)"
+----
+
+----
+new entry "Target_Aid_Temporary_5"
+	using "Target_Aid_Temporary"
+		data "SpellProperties" "ApplyStatus(AID_TEMPORARY_5,100,30)"
+----
+
+----
+new entry "Target_Aid_Temporary_6"
+	using "Target_Aid_Temporary"
+		data "SpellProperties" "ApplyStatus(AID_TEMPORARY_6,100,30)"
+----
+
+----
+new entry "Target_ResilientSphere_No_Concentration"
+	using "Target_ResilientSphere"
+		data "TargetRadius" "10"
+		data "SpellFlags" "HasSomaticComponent;IsSpell"
+----

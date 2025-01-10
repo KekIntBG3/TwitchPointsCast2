@@ -49,6 +49,7 @@ function ProcessDetectedSummon(character)
 end
 
 function UseSummonSummon(character, spellName, target, requestData)
+	_D(requestData)
 	if (requestData["user"]) then
 		nextSummonParams["user"] = requestData["user"]
 	end

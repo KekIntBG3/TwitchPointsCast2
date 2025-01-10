@@ -1,0 +1,25 @@
+new entry "GASEOUS_FORM_NON_DISSMISSABLE"
+	using "GASEOUS_FORM"
+	type "StatusData"
+		data "StatusGroups" "SG_DropForNonMutingDialog;SG_RemoveOnRespec"
+
+
+new entry "MIST_FORM_VAMPIRE_NON_DISSMISSABLE"
+	type "StatusData"
+		data "StatusType" "POLYMORPHED"
+	using "GASEOUS_FORM_NON_DISSMISSABLE"
+		data "OnRemoveFunctors" "ApplyStatus(SELF,MIST_FORM_VAMPIRE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
+		data "ApplyEffect" ""
+		data "StatusEffect" "50cd698d-45fa-488d-9bef-37790575ddd2"
+
+
+
+
+new entry "Target_DarkUrge_Slayer"
+	type "SpellData"
+	using "Shout_DarkUrge_Slayer"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "CastEffect" ""
+		data "TargetEffect" "9e921865-a2ab-44f0-98ff-a649b507737f"
+		

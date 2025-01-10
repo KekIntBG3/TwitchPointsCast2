@@ -54,7 +54,7 @@ function GetPlayerMagicManager(character, callback)
 	else
 		MagicManagerUUID = MagicManagers[UUID]
 	end
-
+	
 	Ext.Timer.WaitFor(delay, function()
 		callback(MagicManagerUUID)
 	end)
