@@ -1,0 +1,75 @@
+{
+	"random_heal": [
+		{
+			"name": "Target_HealingWord_Mass",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_HealingWord_Mass_4",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_HealingWord_Mass_5",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_HealingWord_Mass_6",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_HealingWord_Mass_7",
+			"type": "spell"
+		},
+		{
+			"name": "Target_HealingWord_Mass_8",
+			"type": "spell"
+		},
+		{
+			"name": "Target_HealingWord_Mass_9",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CureWounds",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_CureWounds_2",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_CureWounds_3",
+			"type": "spell",
+			"weight": 2
+		},
+		{
+			"name": "Target_CureWounds_4",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CureWounds_5",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CureWounds_6",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Heal",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Goodberry",
+			"type": "spell"
+		},
+		{
+			"name": "Target_SongOfRest",
+			"type": "spell"
+		}
+	]
+}

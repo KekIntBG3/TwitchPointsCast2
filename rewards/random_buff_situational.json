@@ -1,0 +1,53 @@
+{
+	"random_buff_situational": [
+		{
+			"name": "BLINK",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "FEIGN_DEATH",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "WILD_MAGIC_TELEKINESIS",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "WILD_MAGIC_TELEKINESIS",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "WILD_MAGIC_TELEKINESIS",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "Target_ResilientSphere_No_Concentration",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CreateSpellSlot_1",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CreateSpellSlot_2",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CreateSpellSlot_3",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CreateSpellSlot_4",
+			"type": "spell"
+		},
+		{
+			"name": "Target_CreateSpellSlot_5",
+			"type": "spell"
+		}
+	]
+}

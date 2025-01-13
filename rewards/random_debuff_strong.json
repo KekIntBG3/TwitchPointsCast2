@@ -1,0 +1,64 @@
+{
+	"random_debuff_strong": [
+		{
+			"name": "HOLD_PERSON",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "HOLD_PERSON",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "HOLD_PERSON",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "IRRESISTIBLE_DANCE",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "IRRESISTIBLE_DANCE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "IRRESISTIBLE_DANCE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "HIDEOUS_LAUGHTER",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "HIDEOUS_LAUGHTER",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "HIDEOUS_LAUGHTER",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "FEARED",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "FEARED",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "FEARED",
+			"number_of_rounds": 5,
+			"type": "status"
+		}
+	]
+}

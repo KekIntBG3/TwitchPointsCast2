@@ -1,0 +1,79 @@
+{
+	"random_debuff_minor": [
+		{
+			"name": "CURSE_ABILITY_CHARISMA",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CURSE_ABILITY_WISDOM",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CURSE_ABILITY_INTELLIGENCE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CURSE_ABILITY_CONSTITUTION",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CURSE_ABILITY_DEXTERITY",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CURSE_ABILITY_STRENGTH",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "BANE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "BANE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "BANE",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "BLINDED",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "BLINDED",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "BLINDED",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "POISONED",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "POISONED",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "POISONED",
+			"number_of_rounds": 5,
+			"type": "status"
+		}
+	]
+}

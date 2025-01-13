@@ -1,0 +1,20 @@
+{
+	"random_damage_self": [
+		{
+			"name": "Projectile_AdjustableFireball",
+			"type": "spell"
+		},
+		{
+			"name": "Target_AdjustableIceStorm",
+			"type": "spell"
+		},
+		{
+			"name": "Target_MAG_HungerOfHadar_No_Concentration",
+			"type": "spell"
+		},
+		{
+			"name": "Target_AdjustableCircleOfDeath",
+			"type": "spell"
+		}
+	]
+}

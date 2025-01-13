@@ -1,0 +1,79 @@
+{
+	"random_debuff_moderate": [
+		{
+			"name": "SLOW",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "SLOW",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "SLOW",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "COMMAND_HALT",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "COMMAND_GROVEL",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "DISARM",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "MADNESS",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "MADNESS",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "MADNESS",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "SLEEP",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "SLEEP",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "SLEEP",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "FRIGHTENED",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "FRIGHTENED",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "FRIGHTENED",
+			"number_of_rounds": 5,
+			"type": "status"
+		}
+	]
+}

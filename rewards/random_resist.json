@@ -1,0 +1,29 @@
+{
+	"random_resist": [
+		{
+			"name": "PROTECTION_FROM_ENERGY_COLD",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "PROTECTION_FROM_ENERGY_FIRE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "PROTECTION_FROM_ENERGY_ACID",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "PROTECTION_FROM_ENERGY_LIGHTNING",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "PROTECTION_FROM_ENERGY_THUNDER",
+			"number_of_rounds": 10,
+			"type": "status"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"test": [
+       
+		{
+			"name": "Target_CreateSpellSlot_5",
+			"type": "spell"
+		}
+	]
+}

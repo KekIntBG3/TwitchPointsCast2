@@ -1,0 +1,28 @@
+{
+    "contagion": [
+        {
+            "name": "Target_Contagion_FilthFever",
+            "type": "spell"
+        },
+        {
+            "name": "Target_Contagion_Seizure",
+            "type": "spell"
+        },
+        {
+            "name": "Target_Contagion_BlindingSickness",
+            "type": "spell"
+        },
+        {
+            "name": "Target_Contagion_FleshRot",
+            "type": "spell"
+        },
+        {
+            "name": "Target_Contagion_Mindfire",
+            "type": "spell"
+        },
+        {
+            "name": "Target_Contagion_SlimyDoom",
+            "type": "spell"
+        }
+    ]
+}

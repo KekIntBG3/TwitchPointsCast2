@@ -1,0 +1,34 @@
+{
+	"enlarge_reduce": [
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 7,
+			"type": "status"
+		}
+	]
+}

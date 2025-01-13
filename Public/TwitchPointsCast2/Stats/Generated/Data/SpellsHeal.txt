@@ -1,0 +1,73 @@
+----
+new entry "Target_SongOfRest"
+	using "Shout_SongOfRest"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "SpellProperties" "ShortRest()"
+		data "TargetConditions" "Ally() and Character()"
+		data "CastEffect" ""
+		data "TargetEffect" "5e248293-1a8d-4557-a2e1-f399e4552ff0"
+----
+
+----
+new entry "Target_HealingWord_Mass"
+	using "Shout_HealingWord_Mass"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "Level" "3"
+		data "SpellProperties" "RegainHitPoints(1d4+SpellCastingAbilityModifier)"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')"
+		data "CastEffect" ""
+		data "TargetEffect" "47f3994a-396b-40ac-a063-aa9ed71dc523"
+----
+
+
+----
+new entry "Target_HealingWord_Mass_4"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "4"
+		data "SpellProperties" "RegainHitPoints(2d4+SpellCastingAbilityModifier)"
+----
+
+----
+new entry "Target_HealingWord_Mass_5"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "5"
+		data "SpellProperties" "RegainHitPoints(3d4+SpellCastingAbilityModifier)"
+----
+
+----
+new entry "Target_HealingWord_Mass_6"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "6"
+		data "SpellProperties" "RegainHitPoints(4d4+SpellCastingAbilityModifier)"
+----
+
+----
+new entry "Target_HealingWord_Mass_7"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "7"
+		data "SpellProperties" "RegainHitPoints(5d4+SpellCastingAbilityModifier)"
+----
+
+----
+new entry "Target_HealingWord_Mass_8"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "8"
+		data "SpellProperties" "RegainHitPoints(6d4+SpellCastingAbilityModifier)"
+----
+
+----
+new entry "Target_HealingWord_Mass_9"
+	using "Target_HealingWord_Mass"
+	type "SpellData"
+		data "Level" "9"
+		data "SpellProperties" "RegainHitPoints(7d4+SpellCastingAbilityModifier)"
+----

@@ -1,0 +1,8 @@
+{
+	"summon_boo": [
+		{
+			"name": "Target_FindFamiliar_Boo_Temporary",
+			"type": "summon"
+		}
+	]
+}

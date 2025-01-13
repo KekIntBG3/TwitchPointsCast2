@@ -1,0 +1,250 @@
+{
+	"random_buff_minor": [
+		{
+			"name": "MAG_CRITICAL_ARCANIC_CRITICAL",
+			"number_of_rounds": 1,
+			"type": "status"
+		},
+		{
+			"name": "MAG_CRITICAL_ARCANIC_CRITICAL",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "MAG_CRITICAL_ARCANIC_CRITICAL",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "GUIDANCE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "GUIDANCE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "GUIDANCE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "RESISTANCE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "RESISTANCE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "RESISTANCE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "EXPEDITIOUS_RETREAT",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "EXPEDITIOUS_RETREAT",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "Target_Daylight_Enchantment",
+			"type": "spell"
+		},
+		{
+			"name": "Target_FeatherFall",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Jump",
+			"type": "spell"
+		},
+		{
+			"name": "BLADE_WARD",
+			"number_of_rounds": 2,
+			"type": "status"
+		},
+		{
+			"name": "BLADE_WARD",
+			"number_of_rounds": 4,
+			"type": "status"
+		},
+		{
+			"name": "BLADE_WARD",
+			"number_of_rounds": 6,
+			"type": "status"
+		},
+		{
+			"name": "EAGLES_SPLENDOR",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "OWLS_WISDOM",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "FOXS_CUNNING",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "BEARS_ENDURANCE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "CATS_GRACE",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "BULLS_STRENGTH",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "POTION_OF_SPEED",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "POTION_OF_SPEED",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "FLY",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "FLY",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "FLY",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "BLESS",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "BLESS",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "BLESS",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "Target_Light",
+			"type": "spell"
+		},
+		{
+			"name": "LONGSTRIDER",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "LONGSTRIDER",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "LONGSTRIDER",
+			"number_of_rounds": 20,
+			"type": "status"
+		},
+		{
+			"name": "DIVINE_FAVOR",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "DIVINE_FAVOR",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "DIVINE_FAVOR",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "INVISIBILITY",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "INVISIBILITY",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "INVISIBILITY",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "ENLARGE",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "REDUCE",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "BLUR",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "BLUR",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "BLUR",
+			"number_of_rounds": 7,
+			"type": "status"
+		}
+	]
+}

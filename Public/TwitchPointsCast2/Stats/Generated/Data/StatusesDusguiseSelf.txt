@@ -1,0 +1,266 @@
+
+new entry "DISGUISE_SELF_CUSTOM_BASE"
+	type "StatusData"
+		data "StatusType" "POLYMORPHED"
+// Disguise Self
+		data "DisplayName" "hcbe71694g9436g4eebga502gc96a336d74d2;1"
+// Appearance is entirely changed.
+		data "Description" "haaa21742gad59g4e25g8687g2265bcce179c;1"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "StackId" "DISGUISE_SELF"
+		data "Boosts" "UnlockSpell(Shout_DisguiseSelf_Cancel)"
+		data "TemplateID" "9671ecbb-4030-48ff-b63e-f138e988835f"
+		data "Rules" "c7c3381e-b901-416e-a0c4-bc745e1ff54a"
+		data "StatusGroups" "SG_Polymorph;SG_Disguise;SG_RemoveOnRespec"
+		data "StatusEffect" "43248db1-c7e1-424d-935e-516d8071cf66"
+
+new entry "DISGUISE_SELF_AYLIN"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "9671ecbb-4030-48ff-b63e-f138e988835f"
+
+
+new entry "DISGUISE_SELF_HUMAN_MIZORA"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "303f8bbc-0a71-4c85-a82f-6be9b92b8336"
+
+new entry "DISGUISE_SELF_CAMBION_MIZORA"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "2fbd583e-0507-41c7-be06-15b1f77797d8"
+
+
+new entry "DISGUISE_SELF_FEMALE_CAMBION"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "05705023-c3c0-40b3-a6ed-f210e8136c1e"
+
+
+new entry "DISGUISE_SELF_FEMALE_HAARLEP"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "14ac9a0f-02ab-422f-b848-069c717d4203"
+
+new entry "DISGUISE_SELF_MALE_HAARLEP"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "25498064-744e-479c-809f-f36ecd5eb264"
+
+new entry "DISGUISE_SELF_ISOBEL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "fb266778-3154-4ee7-8fbb-dece0e3058b2"
+
+
+new entry "DISGUISE_SELF_NORMAL_RAPHAEL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "05e26fef-0d5b-4b67-a652-b7813f0b6d04"
+
+new entry "DISGUISE_SELF_CAMBION_RAPHAEL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "4877074c-bfd1-4ba5-9c8a-be33a3640e81"
+
+
+new entry "DISGUISE_SELF_BALTHAZAR"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "167ee470-5f36-4618-a423-b04f6d8dbbb2"
+
+
+new entry "DISGUISE_SELF_VICONIA_HOODED"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "e3b5c786-71f1-485f-a1d0-55e42cd33261"
+
+new entry "DISGUISE_SELF_VICONIA_UNHOODED"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "f96c7ea3-740e-40df-bbcc-d1d65e43dfa5"
+
+
+new entry "DISGUISE_SELF_ASTARION"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "5614c25e-0213-479f-864c-e95895adb30f"
+
+new entry "DISGUISE_SELF_KARLACH"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "3ab0a797-0904-47cb-955d-cdc3ec32409c"
+			
+new entry "DISGUISE_SELF_SHADOWHEART"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "2ac51f22-e357-4639-b81d-022d462c8c6a"
+				
+new entry "DISGUISE_SELF_LAEZEL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "3a0351bd-0b2f-4fbf-84a6-30ad80bb3100"
+
+new entry "DISGUISE_SELF_GALE"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "7d427a86-81f0-418d-a32a-3b5676c86bfa"
+
+new entry "DISGUISE_SELF_GALE_GOD"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "458fa72d-10e7-46bd-896b-0bb60e71bb29"
+
+new entry "DISGUISE_SELF_WYLL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "159cdf9e-6665-4450-9375-8494e233b0e4"
+
+new entry "DISGUISE_SELF_WYLL_DEVIL"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "7ea87604-e604-4a6d-a7ac-b7b2f293c000"
+
+
+new entry "DISGUISE_SELF_MINTHARA"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "2f1d1763-9f7d-45f6-a102-5bd388fb7e86"
+
+
+new entry "DISGUISE_SELF_JAHEIRA"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "7c7e6552-3fc0-4495-bb11-4b9f9a8e71fc"
+
+new entry "DISGUISE_SELF_HALSIN"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "1a3d9848-f86e-4f4c-bba5-125ab605c69e"
+
+
+new entry "DISGUISE_SELF_NERE_HEADLESS"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "8f0dd6a9-cf20-4e92-94b1-39da14ccbabb"
+
+
+new entry "DISGUISE_SELF_CAZADOR"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "8b9128de-fc04-4942-a896-4c377f28413c"
+
+new entry "DISGUISE_SELF_VLAAKITH"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "8bdc382b-a31e-4c1c-8987-656ceb333f05"
+
+
+new entry "DISGUISE_SELF_MAYRINA"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "d54ede98-a80b-45e8-824f-13d778c13412"
+
+
+new entry "DISGUISE_SELF_NINJA_VOSS"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "1f11119b-40c6-4169-b329-eb21c5c06d01"
+
+
+new entry "DISGUISE_SELF_GORTASH"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "502e8dc1-cbf3-4d16-8d8b-ad3acaa66855"
+
+
+new entry "DISGUISE_SELF_GORTASH_SHREK"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "4b426b07-2fde-421d-b7db-56d66486e844"
+
+
+new entry "DISGUISE_SELF_ORIN"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "c46644db-2b4f-4f17-8c22-20c6c164be65"
+
+
+new entry "DISGUISE_SELF_HAG"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "8c85932d-12dd-4046-a694-6534071470a2"
+
+
+new entry "DISGUISE_SELF_SAREVOK"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "187952ff-f290-417d-8108-652d9bb61a52"
+
+new entry "DISGUISE_SELF_KETHERIC"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "bc4b5efc-cbd3-4f8f-a31e-d37f801a038c"
+
+new entry "DISGUISE_SELF_WULBREN"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "c7bd0d1e-65d7-4ed1-b7c5-228690895da8"
+
+new entry "DISGUISE_SELF_ZOMBIE_NURSE"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "e90d8b03-2355-46da-a74a-ad66795759ac"
+
+
+new entry "DISGUISE_SELF_PIXIE"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "ba89b71e-dff9-4af5-8531-ef810ea7d282"
+
+
+new entry "DISGUISE_SELF_FLIND"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "406bdfdb-6063-448e-81cf-4b9ca76bcab3"
+
+
+new entry "DISGUISE_SELF_GOBLIN_MALE"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "31ae25e6-e3b8-4079-b0c9-e60cc49a74d1"
+
+
+new entry "DISGUISE_SELF_GOBLIN_FEMALE"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "3085c1ef-eb43-4be3-969a-0e89acec99da"
+
+new entry "DISGUISE_SELF_GOBLIN_FEMALE_2"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "9e9000e1-c4cf-42cf-8f5c-60e4cda2bca5"
+
+
+new entry "DISGUISE_SELF_DRYAD"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "07d79901-9cb9-41e7-a289-e8b38432d24e"
+
+
+new entry "DISGUISE_SELF_REDCAP"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "6c4ac20f-4434-4089-809c-8f1db55a88cc"
+
+
+new entry "DISGUISE_SELF_DJINNI"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "b4e0028a-f32b-423d-a0b5-69a0aaeb3e27"
+
+
+new entry "DISGUISE_SELF_HARPY"
+	using "DISGUISE_SELF_CUSTOM_BASE"
+		data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Strong_Female"
+		data "TemplateID" "821cd768-2778-488d-9ea8-3a8ba8bab6b2"

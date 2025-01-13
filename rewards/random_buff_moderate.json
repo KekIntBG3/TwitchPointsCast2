@@ -1,0 +1,131 @@
+{
+	"random_buff_moderate": [
+		{
+			"name": "EXPEDITIOUS_RETREAT",
+			"number_of_rounds": 20,
+			"type": "status"
+		},
+		{
+			"name": "Target_Longstrider_Big_Range",
+			"type": "spell"
+		},
+		{
+			"name": "AURA_OF_VITALITY_AURA",
+			"number_of_rounds": 10,
+			"type": "status"
+		},
+		{
+			"name": "Target_MAG_ElementalWeapon_Acid",
+			"type": "spell"
+		},
+		{
+			"name": "Target_MAG_ElementalWeapon_Fire",
+			"type": "spell"
+		},
+		{
+			"name": "Target_MAG_ElementalWeapon_Lightning",
+			"type": "spell"
+		},
+		{
+			"name": "Target_MAG_ElementalWeapon_Cold",
+			"type": "spell"
+		},
+		{
+			"name": "Target_MAG_ElementalWeapon_Cold",
+			"type": "spell"
+		},
+		{
+			"name": "HASTE_SURFACE",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "HASTE_SURFACE",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "SANCTUARY",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "SANCTUARY",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "SANCTUARY",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "Target_MirrorImage",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ProtectionFromPoison",
+			"type": "spell"
+		},
+		{
+			"name": "Target_SeeInvisibility",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Darkvision",
+			"type": "spell"
+		},
+		{
+			"name": "HEROISM",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "HEROISM",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "HEROISM",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "Target_FireShield_Warm",
+			"type": "spell"
+		},
+		{
+			"name": "Target_FireShield_Chill",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys_2",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys_3",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys_4",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys_5",
+			"type": "spell"
+		},
+		{
+			"name": "Target_ArmorOfAgathys_6",
+			"type": "spell"
+		},
+		{
+			"name": "PROTECTION_FROM_EVIL_AND_GOOD",
+			"number_of_rounds": 20,
+			"type": "status"
+		}
+	]
+}

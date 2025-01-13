@@ -1,0 +1,152 @@
+{
+  "something_with_terrain": [
+    {
+      "name": "Target_Daylight",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater_2",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater_3",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater_4",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater_5",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreateWater_6",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Grease",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Grease_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Grease_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Darkness_No_Concentration",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Darkness_No_Concentration_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Darkness_No_Concentration_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FogCloud_No_Concentration",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FogCloud_No_Concentration_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FogCloud_No_Concentration_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FogCloud_No_Concentration_Silent_Hill",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlobeOfInvulnerability_No_Concentration",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PlantGrowth",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PlantGrowth_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PlantGrowth_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Acid",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Cold",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Fire",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Lightning",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Thunder",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Detonation",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GlyphOfWarding_Sleep",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Web_No_Concentration",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Web_No_Concentration_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Web_No_Concentration_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MoldEarth_Create",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MoldEarth_Create_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MoldEarth_Create_Big",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SpikeGrowth_No_Concentration",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SpikeGrowth_No_Concentration_Medium",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SpikeGrowth_No_Concentration_Big",
+      "type": "spell"
+    }
+  ]
+}

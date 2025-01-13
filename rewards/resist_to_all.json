@@ -1,0 +1,19 @@
+{
+	"resist_to_all": [
+		{
+			"name": "POTION_OF_INVULNERABILITY",
+			"number_of_rounds": 3,
+			"type": "status"
+		},
+		{
+			"name": "POTION_OF_INVULNERABILITY",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "POTION_OF_INVULNERABILITY",
+			"number_of_rounds": 7,
+			"type": "status"
+		}
+	]
+}

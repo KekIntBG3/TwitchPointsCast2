@@ -1,0 +1,342 @@
+{
+	"disguise_self": [
+		{
+			"name": "Target_DisguiseSelf_Tiefling_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Tiefling_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Drow_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Drow_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Human_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Human_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Githyanki_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Githyanki_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Dwarf_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Dwarf_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Elf_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Elf_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfElf_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfElf_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Halfling_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Halfling_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Dragonborn_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Dragonborn_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfOrc_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfOrc_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gnome_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gnome_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Human_Strong_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Human_Strong_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Drow_Strong_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Drow_Strong_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Elf_Strong_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Elf_Strong_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfElf_Strong_Male",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_HalfElf_Strong_Female",
+			
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Tiefling_Strong_Male",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Tiefling_Strong_Female",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Aylin",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Human_Mizora",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Cambion_Mizora",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Female_Cambion",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Female_Haarlep",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Male_Haarlep",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Isobel",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Normal_Raphael",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Cambion_Raphael",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Balthazar",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Viconia_Hooded",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Viconia_Unhooded",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Astarion",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Karlach",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Shadowheart",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Laezel",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gale",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gale_God",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Wyll",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Wyll_Devil",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Minthara",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Jahiera",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Halsin",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Nere_Headless",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Cazador",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Vlaakith",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Mayrina",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Ninja_Voss",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gortash",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Gortash_Shrek",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Orin",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Hag",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Sarevok",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Ketheric",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Wulbren",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Zombie_Nurse",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Pixie",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Flind",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Goblin_Male",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Goblin_Female",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Goblin_Female_2",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Dryad",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Redcap",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Djinni",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DisguiseSelf_Harpy",
+			"type": "spell"
+		}
+	]
+}

@@ -1,0 +1,184 @@
+{
+	"random_summon": [
+		{
+            "name": "Target_ConjureElemental_Elemental_Air_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Elemental_Earth_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Elemental_Fire_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Elemental_Water_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElementals_Minor_Azer_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElementals_Minor_IceMephit_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElementals_Minor_MudMephit_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureWoodlandBeings_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Myrmidon_Air_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Myrmidon_Earth_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Myrmidon_Fire_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_ConjureElemental_Myrmidon_Water_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PlanarAlly_Cambion_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PlanarAlly_Deva_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PlanarAlly_Djinni_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PlanarAlly_Deva_Banite_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Cat_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Crab_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Frog_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Rat_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Raven_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_FindFamiliar_Spider_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PactOfTheChain_Quasit_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_PactOfTheChain_Imp_Temporary",
+            "type": "summon"
+        },
+        {
+            "name": "Target_GuardianOfFaith",
+            "type": "summon"
+        },
+        {
+            "name": "Target_GraspingVine",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greatsword",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greatsword_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greatsword_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greataxe",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greataxe_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Greataxe_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Halberd",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Halberd_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Halberd_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Maul",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Maul_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Maul_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Spear",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Spear_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Spear_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Trident",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Trident_4",
+            "type": "summon"
+        },
+        {
+            "name": "Target_SpiritualWeapon_Trident_6",
+            "type": "summon"
+        },
+        {
+            "name": "Target_CursedTome_WakeTheDead",
+            "type": "summon"
+        }
+	]
+}

@@ -1,0 +1,576 @@
+----
+new entry "Target_DisguiseSelf_Tiefling_Male"
+	using "Shout_DisguiseSelf_Tiefling_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_TIEFLING_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Tiefling_Female"
+	using "Shout_DisguiseSelf_Tiefling_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_TIEFLING_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Drow_Male"
+	using "Shout_DisguiseSelf_Drow_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DROW_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Drow_Female"
+	using "Shout_DisguiseSelf_Drow_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DROW_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Human_Male"
+	using "Shout_DisguiseSelf_Human_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HUMAN_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Human_Female"
+	using "Shout_DisguiseSelf_Human_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HUMAN_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Githyanki_Male"
+	using "Shout_DisguiseSelf_Githyanki_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GITHYANKI_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Githyanki_Female"
+	using "Shout_DisguiseSelf_Githyanki_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GITHYANKI_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Dwarf_Male"
+	using "Shout_DisguiseSelf_Dwarf_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DWARF_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Dwarf_Female"
+	using "Shout_DisguiseSelf_Dwarf_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DWARF_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Elf_Male"
+	using "Shout_DisguiseSelf_Elf_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ELF_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Elf_Female"
+	using "Shout_DisguiseSelf_Elf_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ELF_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfElf_Male"
+	using "Shout_DisguiseSelf_HalfElf_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFELF_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfElf_Female"
+	using "Shout_DisguiseSelf_HalfElf_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFELF_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Halfling_Male"
+	using "Shout_DisguiseSelf_Halfling_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFLING_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Halfling_Female"
+	using "Shout_DisguiseSelf_Halfling_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFLING_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Dragonborn_Male"
+	using "Shout_DisguiseSelf_Dragonborn_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DRAGONBORN_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Dragonborn_Female"
+	using "Shout_DisguiseSelf_Dragonborn_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DRAGONBORN_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfOrc_Male"
+	using "Shout_DisguiseSelf_HalfOrc_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFORC_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfOrc_Female"
+	using "Shout_DisguiseSelf_HalfOrc_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFORC_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Gnome_Male"
+	using "Shout_DisguiseSelf_Gnome_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GNOME_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Gnome_Female"
+	using "Shout_DisguiseSelf_Gnome_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GNOME_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Human_Strong_Male"
+	using "Shout_DisguiseSelf_Human_Strong_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HUMAN_STRONG_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Human_Strong_Female"
+	using "Shout_DisguiseSelf_Human_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HUMAN_STRONG_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Drow_Strong_Male"
+	using "Shout_DisguiseSelf_Drow_Strong_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DROW_STRONG_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Drow_Strong_Female"
+	using "Shout_DisguiseSelf_Drow_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DROW_STRONG_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Elf_Strong_Male"
+	using "Shout_DisguiseSelf_Elf_Strong_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ELF_STRONG_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Elf_Strong_Female"
+	using "Shout_DisguiseSelf_Elf_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ELF_STRONG_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfElf_Strong_Male"
+	using "Shout_DisguiseSelf_HalfElf_Strong_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFELF_STRONG_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_HalfElf_Strong_Female"
+	using "Shout_DisguiseSelf_HalfElf_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALFELF_STRONG_FEMALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Tiefling_Strong_Male"
+	using "Shout_DisguiseSelf_Tiefling_Strong_Male"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_TIEFLING_STRONG_MALE,100,-1)"
+----
+----
+new entry "Target_DisguiseSelf_Tiefling_Strong_Female"
+	using "Shout_DisguiseSelf_Tiefling_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_TIEFLING_STRONG_FEMALE,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Custom_Disguise"
+	using "Shout_DisguiseSelf_Elf_Strong_Female"
+	type "SpellData"
+		data "SpellType" "Target"
+		data "TargetRadius" "10"
+		data "TargetConditions" "Ally() and Character()"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_AYLIN,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Aylin"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_AYLIN,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Human_Mizora"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HUMAN_MIZORA,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Cambion_Mizora"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_CAMBION_MIZORA,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Female_Cambion"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_FEMALE_CAMBION,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Female_Haarlep"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_FEMALE_HAARLEP,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Male_Haarlep"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_MALE_HAARLEP,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Isobel"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ISOBEL,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Normal_Raphael"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_NORMAL_RAPHAEL,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Cambion_Raphael"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_CAMBION_RAPHAEL,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Balthazar"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_BALTHAZAR,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Viconia_Hooded"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_VICONIA_HOODED,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Viconia_Unhooded"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_VICONIA_UNHOODED,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Astarion"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ASTARION,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Karlach"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_KARLACH,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Shadowheart"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_SHADOWHEART,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Laezel"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_LAEZEL,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Gale"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GALE,100,-1)"
+----
+
+
+----
+new entry "Target_DisguiseSelf_Gale_God"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GALE_GOD,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Wyll"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_WYLL,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Wyll_Devil"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_WYLL_DEVIL,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Minthara"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_MINTHARA,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Jahiera"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_JAHEIRA,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Halsin"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HALSIN,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Nere_Headless"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_NERE_HEADLESS,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Cazador"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_CAZADOR,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Vlaakith"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_VLAAKITH,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Mayrina"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_MAYRINA,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Ninja_Voss"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_NINJA_VOSS,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Gortash"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GORTASH,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Gortash_Shrek"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GORTASH_SHREK,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Orin"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ORIN,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Hag"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HAG,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Sarevok"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_SAREVOK,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Ketheric"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_KETHERIC,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Wulbren"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_WULBREN,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Zombie_Nurse"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_ZOMBIE_NURSE,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Pixie"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_PIXIE,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Flind"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_FLIND,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Goblin_Male"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GOBLIN_MALE,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Goblin_Female"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GOBLIN_FEMALE,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Goblin_Female_2"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_GOBLIN_FEMALE_2,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Dryad"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DRYAD,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Redcap"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_REDCAP,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Djinni"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_DJINNI,100,-1)"
+----
+
+----
+new entry "Target_DisguiseSelf_Harpy"
+	using "Target_DisguiseSelf_Custom_Disguise"
+		data "SpellProperties" "ApplyStatus(DISGUISE_SELF_HARPY,100,-1)"
+----
+
+

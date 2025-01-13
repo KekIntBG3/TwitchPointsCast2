@@ -77,3 +77,9 @@ new entry "AID_TEMPORARY_6"
 ----
 
 
+----
+new entry "HEROES_FEAST_TEMPORARY"
+	using "HEROES_FEAST"
+	type "StatusData"
+		data "StackId" "HEROES_FEAST_TEMPORARY"
+----

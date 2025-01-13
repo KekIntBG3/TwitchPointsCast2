@@ -1,0 +1,12 @@
+{
+	"flesh_to": [
+		{
+			"name": "Target_FleshToStone",
+			"type": "spell"
+		},
+		{
+			"name": "Target_TWN_Tollhouse_FleshToGold",
+			"type": "spell"
+		}
+	]
+}

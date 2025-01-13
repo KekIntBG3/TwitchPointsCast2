@@ -1,0 +1,812 @@
+{
+  "weapons": [
+    {
+      "name": "Target_SpearOfEvening_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Salami_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TwistingBranch_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PlagueGreenTorch_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TorchOfRevocation_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FlailOfTheVortex_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Greatsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Pickaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PracticeSword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ScimitarSharran_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ScimitarOfCinder_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TridentOfTheDepths_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AzerWarhammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CeremonialLongsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CeremonialBattleaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CrossbowOfArcaneForce_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_EverburnBlade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GithyankiGreatswordPsionic_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Halberd1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Hoppy_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HeavyCrossbow1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightOfCreation_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MyrkuliteScourge_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ReturningPike_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SwordOfScreams_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheSkinburster_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AdamantineLongsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AdamantineScimitar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AdamantineMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BlackguardsSword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BladeOfOppressedSouls_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BreachingPikestaff_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BloodedGreataxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Greataxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Corpsegrinder_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CorrosiveFlail_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DukeRavenguardsLongsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DrakethroatGlaive_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_KethericsWarhammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LarethiansWrath_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RatBat_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RavenguardsScourger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SoulbreakerGreatsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Sorrow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_UnseenMenace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Warhammer2_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Belm_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DwarvenThrower_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FabricatedArbalest_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HellfireHandCrossbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_InfernalRapier_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_KnifeOfTheUndermountainKing_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheDeadShot_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheDancingBreeze_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_VossSilverSword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BalduransGiantslayer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CrimsonMischief_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DuellistsPrerogative_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GontrMael_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Nyrulna_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SilverSwordOfTheAstralPlane_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_OrphicHammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_KingsKnife_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PactboundTrident_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyMaul_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyPike_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyGlaive_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyGreatsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyHalberd_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyHeavyCrossbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyLongsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyMorningstar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyScimitar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyShortsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyTrident_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HandCrossbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Shortsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Scimitar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DjinniScimitar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ChaosFlail_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ShadowBattleaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ToughSunrises_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SteadfastMaul_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GithyankiLongswordPsionic_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Verminsign_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PhalarAluve_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SanguineBlade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Moonblade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_InfernalWarhammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RenderofScrumptiousFlesh_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ReboundBattleaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CombinationAxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_FlailOfDreadSkulls_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BloodBoundBlade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ExecutionerSword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AllandrasWhelm_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PlaneslayerFlail_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_InfernalLongsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ArduousFlameBlade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheImpaler_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MagicalHandCrossbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Bloodthirst_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheClover_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SwordOfClutchingUmbra_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheJoltshooter_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheLongArmOfTheGur_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SwordOfChaos_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Sethan_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TridentOfTheWaves_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_JorgoralsGreatsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DefenderGreataxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ClownHammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ArtificialLeech_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BOOOALsArms_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Club_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Cleaver_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DevaMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Mace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_NeedleOfTheOutlawRogue_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustedBlade_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyHandaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustyMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustySickle_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RustySpear_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Scalpel_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Syringe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TwistedOakCrook_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BrokenClub_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DadsAxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Javelin_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_KassPracticeSword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightHammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_PooScraper_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Spear_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Sickle_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ArgumentSolver_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ArtificialLeech1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AssassinsShortsword_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_AssassinsTouch_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BowOfAwareness_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ComebackHandaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightningJabber_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightCrossbow1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightHammer1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MelfsFirstStaff_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_NaturesSnare_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RainDancer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_RitualDaggerOfShar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_StaffOfaMumblingWizard_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_StaffOfArcaneBlessing_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_WulbrensHammer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Ambusher_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BigboysChewToy_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BowOfTheBanshee_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Cacophony_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CaitiffStaff_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ColdSnap_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_CreationsEcho_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DarkfireShortbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GleamdanceDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DreadIronDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_InfernalMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HollowsStaff_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ShatteredFlail_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SpearOfNight_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Spear2_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SussurSickle_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheSpellsparkler_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HandmaidensMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Blightbringer_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Rhapsody_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_StaffOfCherishedNecromancy_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_StaffOfSpellpower_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Stillmaker_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Woe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DevoteesMace_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Markoheshkir_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SelunesSpearOfNight_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_TheBloodOfLathander_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Dart_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_VampiricDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Sling_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SpiderstepStaff_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_MindSunderingDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_BrewingLadle_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_GoblinbaneDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_EnforcerClub_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Promise_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_SharsSting_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DaggerOfShar_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Dart1_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_StaffOfAccretion_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LightCrossbowOfSpeed_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Dart2_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ArcaneAbsorptionDagger_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DolorAmarus_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ViciousShortbow_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_Fleshrender_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ViciousBattleaxe_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_LeastExpected_Temporary",
+      "type": "spell"
+    },
+    {
+      "name": "Target_ClubOfHillGiantStrength_Temporary",
+      "type": "spell"
+    }
+  ]
+}

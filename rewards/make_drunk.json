@@ -1,0 +1,19 @@
+{
+	"make_drunk": [
+		{
+			"name": "DRINK_ALCOHOL",
+			"number_of_rounds": 7,
+			"type": "status"
+		},
+		{
+			"name": "DRINK_ALCOHOL",
+			"number_of_rounds": 5,
+			"type": "status"
+		},
+		{
+			"name": "DRINK_ALCOHOL",
+			"number_of_rounds": 3,
+			"type": "status"
+		}
+	]
+}

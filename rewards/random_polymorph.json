@@ -1,0 +1,113 @@
+{
+  "random_polymorph": [
+    {
+      "name": "POLYMORPH_CHEESE",
+      "number_of_rounds": 10,
+      "type": "status"
+    },
+    {
+      "name": "POLYMORPH_CHEESE",
+      "number_of_rounds": 20,
+      "type": "status"
+    },
+    {
+      "name": "Target_HAV_DevilishOX_AlternateForm_Minotaur",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HAV_DevilishOX_AlternateForm_PhaseSpider",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HAV_DevilishOX_AlternateForm_ShadowMastiff",
+      "type": "spell"
+    },
+    {
+      "name": "Target_HAV_DevilishOX_AlternateForm_DireWolf",
+      "type": "spell"
+    },
+    {
+      "name": "Target_EPI_Polymorph_GaleGod",
+      "type": "spell"
+    },
+    {
+      "name": "Target_DarkUrge_Slayer",
+      "type": "spell"
+    },
+    {
+      "name": "SCL_PIXIEBELL_BOAR",
+      "number_of_rounds": 1,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_BOAR",
+      "number_of_rounds": 3,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_BOAR",
+      "number_of_rounds": 5,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_DEEPROTHE",
+      "number_of_rounds": 1,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_DEEPROTHE",
+      "number_of_rounds": 3,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_DEEPROTHE",
+      "number_of_rounds": 5,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_FROG",
+      "number_of_rounds": 1,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_FROG",
+      "number_of_rounds": 3,
+      "type": "status"
+    },
+    {
+      "name": "SCL_PIXIEBELL_FROG",
+      "number_of_rounds": 5,
+      "type": "status"
+    },
+    {
+      "name": "GASEOUS_FORM_NON_DISSMISSABLE",
+      "number_of_rounds": 3,
+      "type": "status"
+    },
+    {
+      "name": "GASEOUS_FORM_NON_DISSMISSABLE",
+      "number_of_rounds": 5,
+      "type": "status"
+    },
+    {
+      "name": "GASEOUS_FORM_NON_DISSMISSABLE",
+      "number_of_rounds": 7,
+      "type": "status"
+    },
+    {
+      "name": "MIST_FORM_VAMPIRE_NON_DISSMISSABLE",
+      "number_of_rounds": 3,
+      "type": "status"
+    },
+    {
+      "name": "MIST_FORM_VAMPIRE_NON_DISSMISSABLE",
+      "number_of_rounds": 5,
+      "type": "status"
+    },
+    {
+      "name": "MIST_FORM_VAMPIRE_NON_DISSMISSABLE",
+      "number_of_rounds": 7,
+      "type": "status"
+    }
+  ]
+}

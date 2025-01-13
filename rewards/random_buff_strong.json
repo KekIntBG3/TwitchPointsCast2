@@ -1,0 +1,36 @@
+{
+	"random_buff_strong": [
+		{
+			"name": "Target_Aid_Temporary",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Aid_Temporary_3",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Aid_Temporary_4",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Aid_Temporary_5",
+			"type": "spell"
+		},
+		{
+			"name": "Target_Aid_Temporary_6",
+			"type": "spell"
+		},
+		{
+			"name": "Target_HeroesFeast_Temporary",
+			"type": "spell"
+		},
+		{
+			"name": "Target_DeathWard",
+			"Type": "spell"
+		},
+		{
+			"name": "Target_FreedomOfMovement",
+			"type": "spell"
+		}
+	]
+}

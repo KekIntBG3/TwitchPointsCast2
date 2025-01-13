@@ -1,0 +1,12 @@
+{
+	"spirit_guardians": [
+		{
+			"name": "Target_SpiritGuardians_Radiant_Lite",
+			"type": "spell"
+		},
+		{
+			"name": "Target_SpiritGuardians_Necrotic_Lite",
+			"type": "spell"
+		}
+	]
+}
