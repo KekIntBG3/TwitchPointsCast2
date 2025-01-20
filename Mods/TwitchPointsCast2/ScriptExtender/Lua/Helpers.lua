@@ -35,7 +35,7 @@ function TeleportToTarget(character, target, animationUUID)
 
 	if (animationUUID ~= nil) then
 		Osi.PlayEffectAtPosition(animationUUID, x, y, z, 1)
-		local duration = Ext.Resource.Get(animationUUID, "Effect").Duration
+		-- local duration = Ext.Resource.Get(animationUUID, "Effect").Duration
 		if (duration ~= nil) then
 			result['animation_duration'] = duration * 1000
 		end

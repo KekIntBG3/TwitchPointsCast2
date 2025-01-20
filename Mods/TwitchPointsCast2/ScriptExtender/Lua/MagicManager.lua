@@ -1,7 +1,7 @@
 local MagicManagers = {} -- { playerCharacterUUID: ManagerUUID }
 
-local MAGIC_MANAGER_TEMPLATE_UUID = "d2af791e-0b75-4b1a-9842-d51b32de87bc" -- eye
--- local MAGIC_MANAGER_TEMPLATE_UUID = "68fd2a6c-1503-4e64-9aa8-a9e10e95834a" -- parrot
+-- local MAGIC_MANAGER_TEMPLATE_UUID = "d2af791e-0b75-4b1a-9842-d51b32de87bc" -- eye
+local MAGIC_MANAGER_TEMPLATE_UUID = "68fd2a6c-1503-4e64-9aa8-a9e10e95834a" -- parrot
 -- local MAGIC_MANAGER_TEMPLATE_UUID = "9671ecbb-4030-48ff-b63e-f138e988835f" 
 PLAYER_MAGIC_MANAGER_KEY = "MAGIC_MANAGER_COMPATION"
 MAGIC_MANAGER_PLAYER_KEY = "FOLLOWER"
@@ -33,11 +33,20 @@ end
 function SummonMagicManagerToPlayer(character, callback)
 	GetPlayerMagicManager(character, function(MagicManagerUUID)
 		local UUID = getUUID(character)
-		if ((Osi.GetDistanceTo(UUID, MagicManagerUUID) > 20)) then
-			local teleportData = TeleportToTarget(MagicManagerUUID, UUID, "a164a018-22f3-a538-5acb-4aedf67358de")
-			Ext.Timer.WaitFor(teleportData.animation_duration / 2, function()
-				callback(MagicManagerUUID)
-			end)
+		if ((Osi.GetDistanceTo(UUID, MagicManagerUUID) > 5)) then
+			local teleportData = nil
+			if (Osi.GetDistanceTo(UUID, MagicManagerUUID) > 20) then
+				teleportData = TeleportToTarget(MagicManagerUUID, UUID, "a164a018-22f3-a538-5acb-4aedf67358de")
+				Ext.Timer.WaitFor(teleportData.animation_duration / 2, function()
+					callback(MagicManagerUUID)
+				end)
+			else
+				Osi.CharacterMoveTo(MagicManagerUUID, UUID, "Run", '', 1)
+				Ext.Timer.WaitFor(2000, function()
+					callback(MagicManagerUUID)
+				end)
+			end
+			
 		else
 			callback(MagicManagerUUID)
 		end
@@ -56,6 +65,7 @@ function GetPlayerMagicManager(character, callback)
 	end
 	
 	Ext.Timer.WaitFor(delay, function()
+		_P(MagicManagerUUID)
 		callback(MagicManagerUUID)
 	end)
 end
@@ -67,9 +77,11 @@ function TeleportToAsylum(character)
 		Osi.TeleportToPosition(character, -297, 0, 126, '', 0, 0, 0, 1, 1) -- act 1 assylum
 	end)
 end
+
+
+
 --  Ext.Resource.Get(effectUUID, "Effect").Duration в общем )
 
--- Ext.Osiris.RegisterListener("AnimationEvent", 3, "after", function (object, eventname, wasFromLoad)
--- 	_D(object)
--- 	_D(eventname)
--- end)
+
+
+--UsingSpell((GUIDSTRING)_Caster, (STRING)_Spell, (STRING)_SpellType, (STRING)_SpellElement, (INTEGER)_StoryActionID)

@@ -49,7 +49,6 @@ function ProcessDetectedSummon(character)
 end
 
 function UseSummonSummon(character, spellName, target, requestData)
-	_D(requestData)
 	if (requestData["user"]) then
 		nextSummonParams["user"] = requestData["user"]
 	end
@@ -68,14 +67,15 @@ function UseSummonEnemy(character, enemy, target, count, requestData)
 	
 
 	local x, y, z = Osi.GetPosition(target)
-	_P('count', count)
+
 	for i = 1, count do
-		_P('SPAWN ENEMY')
+
 		local positionX, positionY, positionZ = getRandomPosition(x, y, z, 10)
 		local enemyTemplate = enemiesTemplates[math.random(1, #enemiesTemplates)]
-		_P(enemyTemplate)
 		local enemy = Osi.CreateAt(enemyTemplate, positionX, positionY, positionZ, 1, 1, "")
 		Osi.TeleportToPosition(enemy, positionX, positionY, positionZ, "", 0, 0, 0, 1, 1)
+		-- 71273c6a-1396-616e-713d-153fb9e77c76 кровавый взрыв
+		Osi.PlayEffectAtPosition("71273c6a-1396-616e-713d-153fb9e77c76", x, y, z, 1)
 
 		Osi.SetFaction(enemy, '4be9261a-e481-8d9d-3528-f36956a19b17')
 		Osi.SetCanJoinCombat(enemy, 1)

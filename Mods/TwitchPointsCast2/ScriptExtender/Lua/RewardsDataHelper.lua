@@ -33,6 +33,9 @@ local function AddRewardToExecute(rewardRequestData, rewardEffectsList)
     if (randomEffect['type'] == 'status') then
         randomEffect['special_effect'] = getRandomSpecialEffect()
     end
+    if (randomEffect['type'] == 'enemy') then
+        randomEffect['special_effect'] = getRandomSpecialEffect()
+    end
 
     table.insert(rewardState['rewards'], {
         ['reward_name'] = rewardRequestData['__reward_name__'],

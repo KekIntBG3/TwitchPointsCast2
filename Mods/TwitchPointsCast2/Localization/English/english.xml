@@ -23,4 +23,8 @@
   
   <content contentuid="h29e01d3bg6d54g40bdg9f5ag7b3dbe3e70a4" version="1">Reward</content>
 
+  <content contentuid="hc02a00e4g4809g42d6g8f2dg89411f139a89" version="1">Auto check twitch rewards</content>
+  <content contentuid="h44471892g747ag4a5bg916dg6367d52f8bab" version="1">Auto Event Character Moved</content>
+  <content contentuid="h30ae8b00g7ce4g4594ga530g94dae3d15b80" version="1">Auto Detect Summons Aura</content>
+
 </contentList>
