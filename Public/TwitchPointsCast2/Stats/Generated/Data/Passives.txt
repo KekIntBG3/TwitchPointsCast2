@@ -1,7 +1,7 @@
 new entry "Auto_Check_Twitch_Reward"
 	type "PassiveData"
 		data "Properties" "IsHidden"
-		data "StatsFunctorContext" "OnMovedDistance;OnCast;OnAttack;OnHeal;OnCreate;OnPush"
+		data "StatsFunctorContext" "OnMovedDistance;OnCast;OnAttack;OnHeal;OnCreate;OnPush;OnTurn"
 		data "Conditions" "not HasStatus('NEED_CHECK_TWITCH_REWARD', context.Source)"
 		data "StatsFunctors" "ApplyStatus(SELF,NEED_CHECK_TWITCH_REWARD,100,-1)"
 
