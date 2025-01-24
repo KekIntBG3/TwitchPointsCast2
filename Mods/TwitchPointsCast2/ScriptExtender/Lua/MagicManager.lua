@@ -7,19 +7,6 @@ PLAYER_MAGIC_MANAGER_KEY = "MAGIC_MANAGER_COMPATION"
 MAGIC_MANAGER_PLAYER_KEY = "FOLLOWER"
 local MAGIC_MAGANER_APPEARING_ANIMATION_UUID = "a164a018-22f3-a538-5acb-4aedf67358de"
 
-local assylumPosotions = {
-	nautiloid = {
-		x = -155,
-		y = 30,
-		z = -390
-	},
-	act1 = {
-		x = -297,
-		y = 0,
-		z = 126
-	}
-}
-
 local function GetAssylumPosition()
 	-- return assylumPosotions.act1
 	return { x = 999, y = -999, z = 999 }
