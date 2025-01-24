@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ApplyStatus(&apos;FREEDOM_OF_MOVEMENT&apos;, 100, -1)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="MagicManager"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DevilsSight"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="aa0ef364-1158-4e82-9e24-6829db14394b"/>
+                    <attribute id="UUID" type="guid" value="c4f80333-06b0-42ec-b3ad-b09b622354ab"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
